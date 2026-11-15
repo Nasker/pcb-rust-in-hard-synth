@@ -106,6 +106,53 @@
 		)
 	)
 	(sheet
+		(at 223.52 76.2)
+		(size 88.9 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "520a41cd-cc0e-4519-98f7-dd15ca01a195")
+		(property "Sheetname" "MIDI"
+			(at 260.35 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "midi.kicad_sch"
+			(at 223.52 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 76.2)
 		(size 90.17 68.58)
 		(exclude_from_sim no)

@@ -94,7 +94,7 @@
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV3"
-			(at 0 -6.15 90)
+			(at -5.375 -6.15 180)
 			(layer "F.SilkS")
 			(uuid "23cc5c42-b108-4f94-8a9e-408008f565ad")
 			(effects
@@ -305,11 +305,11 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "19849474-3958-4db0-ae23-285315f29afd")
-		(at 114 87 180)
+		(at 110 87 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV1"
-			(at 0 -6.15 90)
+			(at -5 -6.15 0)
 			(layer "F.SilkS")
 			(uuid "e75ebe7a-f35f-4496-bd84-76982661a8bf")
 			(effects
@@ -524,7 +524,7 @@
 		(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 		(tags "SMD SMT SPST EVQPUM EVQPUD")
 		(property "Reference" "SW2"
-			(at 0 -4.5 0)
+			(at 0 3.025 0)
 			(layer "F.SilkS")
 			(uuid "3ce66028-2aef-45c6-9c06-b99eecf3b261")
 			(effects
@@ -802,11 +802,11 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "2b594abd-9dd1-4eb1-a0f5-1095740ce8ac")
-		(at 187.375 87.5 180)
+		(at 184.625 87.5 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV4"
-			(at 0 -6.15 90)
+			(at -5.375 -6.15 180)
 			(layer "F.SilkS")
 			(uuid "6366417e-1b6d-4bf1-9d57-757c53000c6a")
 			(effects
@@ -1021,7 +1021,7 @@
 		(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 		(tags "SMD SMT SPST EVQPUM EVQPUD")
 		(property "Reference" "SW1"
-			(at 0 -4.5 0)
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "e90f6fb3-ed7d-4906-9b00-a6a382991b34")
 			(effects
@@ -1299,11 +1299,11 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "7febb302-c058-4356-bdd4-c323524bf6e8")
-		(at 134.375 87 180)
+		(at 135 87 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV2"
-			(at 0 -6.15 90)
+			(at -5 -6.15 180)
 			(layer "F.SilkS")
 			(uuid "508af80c-4492-49da-9d0d-9dc6cae70e23")
 			(effects
@@ -1514,11 +1514,11 @@
 	(footprint "Local_Libraries:RotaryEncoder_EC12E-SMD"
 		(layer "F.Cu")
 		(uuid "90f9ef13-01d2-4d9e-ab21-ee9fc93ac157")
-		(at 103 112.5 90)
+		(at 181.9 117.5 90)
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW3"
-			(at 2.8 -4.7 0)
+			(at -2.5 8.1 0)
 			(layer "F.SilkS")
 			(uuid "5fecc041-974a-49bc-a666-e12aed8b162d")
 			(effects
@@ -2074,9 +2074,9 @@
 			(uuid "6598bcf7-30f0-4e8b-bb07-7a677249958f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Local_Libraries/OLED-1.3inch-128x64-SPI.step"
+		(model "${KIPRJMOD}/Local_Libraries/HiLetgo - DM-OLED13-625.stp"
 			(offset
-				(xyz 7.62 1.5 3)
+				(xyz 7.5 1 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2093,7 +2093,7 @@
 		(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 		(tags "SMD SMT SPST EVQPUM EVQPUD")
 		(property "Reference" "SW4"
-			(at 0 -4.5 0)
+			(at 0 3.15 0)
 			(layer "F.SilkS")
 			(uuid "eda883c4-0596-4421-876b-de74c72aeb7f")
 			(effects
@@ -2375,7 +2375,7 @@
 		(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 		(tags "SMD SMT SPST EVQPUM EVQPUD")
 		(property "Reference" "SW5"
-			(at 0 -4.5 0)
+			(at 0 3.15 0)
 			(layer "F.SilkS")
 			(uuid "198b6f18-4a92-4522-8f32-a80c882fcc0a")
 			(effects
@@ -6543,19 +6543,6 @@
 				(justify right mirror)
 			)
 		)
-		(fp_text user "GPIO36"
-			(at 24.13 -27.94 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "fa29d936-9fc8-4db7-86f3-d9ae67708e2d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify right mirror)
-			)
-		)
 		(fp_text user "GPIO37"
 			(at 24.13 -25.4 0)
 			(unlocked yes)
@@ -6691,6 +6678,19 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "7f6ac43c-67c4-4f98-8e25-cc5d46641e4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "GPIO36"
+			(at 24.4 -27.94 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "fa29d936-9fc8-4db7-86f3-d9ae67708e2d")
 			(effects
 				(font
 					(size 1 1)
