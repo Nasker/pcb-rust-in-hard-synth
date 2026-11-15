@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DevBoard_Modules") (type "KiCad") (uri "${KIPRJMOD}/Local_Libraries/DevBoard_Modules.kicad_sym") (options "") (descr "Project-local module symbols"))
+)
