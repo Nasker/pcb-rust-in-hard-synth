@@ -824,7 +824,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "+3V3")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -1007,7 +1007,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "+3V3")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -1298,7 +1298,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "BTN_3")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -1869,7 +1869,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "BTN_2")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -4141,7 +4141,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "BTN_1")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -4406,9 +4406,7 @@
     (offset (xyz 1.27 1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
-  
-			(net "Net-(U1-3V3-Pad1)")
-		)
+  )
 )
 
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -4729,7 +4727,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "+3V3")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -5222,7 +5220,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "GND")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -6779,7 +6777,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "+3V3")
+			
 		)
 		(scale
 			(xyz 1 1 1)
@@ -7681,7 +7679,7 @@
 		(offset
 			(xyz 0 0 0)
 		
-			(net "BTN_4")
+			
 		)
 		(scale
 			(xyz 1 1 1)
