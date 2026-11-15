@@ -9327,4 +9327,319 @@
 		)
 		(uuid "fdc7d0cc-ba68-4c02-9b92-d4be525ea576")
 	)
+
+
+
+
+
+
+
+
+
+	(no_connect
+		(at 139.70 68.58)
+		(uuid "1d6eb243-f6ac-40c5-be0d-d083cdeb5f66")
+	)
+	(no_connect
+		(at 109.22 68.58)
+		(uuid "05124ec9-5adf-4908-bff1-552d1b4cd7f8")
+	)
+	(no_connect
+		(at 109.22 60.96)
+		(uuid "140330cf-6042-4ff0-a075-8026874d7b9e")
+	)
+	(no_connect
+		(at 109.22 30.48)
+		(uuid "88f10c1c-87c8-49c6-81d6-1dcc4bf2cc75")
+	)
+	(no_connect
+		(at 109.22 38.10)
+		(uuid "29d8fec7-45b6-40e9-8b3e-0cc3d6671d75")
+	)
+	(no_connect
+		(at 109.22 40.64)
+		(uuid "b3e15748-6d08-4416-a6b9-48b3e96f871b")
+	)
+	(no_connect
+		(at 109.22 43.18)
+		(uuid "bc19a731-a218-427d-83af-b8dd67cbb907")
+	)
+	(no_connect
+		(at 109.22 50.80)
+		(uuid "d2316bfb-4005-4fd2-920d-225967a86734")
+	)
+	(no_connect
+		(at 109.22 53.34)
+		(uuid "a4984d42-e030-4f79-a461-3dc5ea6ab36b")
+	)
+	(no_connect
+		(at 109.22 55.88)
+		(uuid "11ed41d0-60b2-4490-a22c-e5ab9c5155b0")
+	)
+	(wire
+		(pts
+			(xy 139.70 48.26)
+			(xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c12899d-1379-44e0-bf5b-27cde68b0744")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da98ac6-9955-4733-b527-0f3f8012833b")
+		(property "Reference" "#PWR080" (at 142.24 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 52.07 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "8b0513a0-32d6-4ed3-8df2-bb19c8daa06c")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.70 50.80)
+			(xy 142.24 50.80)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd9e258-a371-4206-958a-047e55403b62")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 50.80 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb139f00-8581-4a6c-b7d0-b6600fc7b5cf")
+		(property "Reference" "#PWR081" (at 142.24 46.99 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 54.61 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "76add085-9025-42fc-ad50-7625e78aace4")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.70 55.88)
+			(xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20718f00-0d03-40ae-abed-e45a0bc261e8")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2934ae14-044b-4c35-8c73-6456d4ad7c33")
+		(property "Reference" "#PWR082" (at 142.24 52.07 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 59.69 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "2b45d4ef-4ba0-4ab3-88b3-18ade5de060a")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.70 53.34)
+			(xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a699c2eb-d1b3-4504-9826-f8f175caeddb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c322cd7-8d78-43df-bd94-a4a500dc8007")
+		(property "Reference" "#PWR083" (at 142.24 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 57.15 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 53.34 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 53.34 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 53.34 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "4eeec215-e1b0-4b08-a4af-fe612077632c")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.70 58.42)
+			(xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecf4d0d-7d05-469e-b4d4-913aa2391e3e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1bfecd2-0d45-4f2e-9645-12a87dac9660")
+		(property "Reference" "#PWR084" (at 142.24 54.61 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 62.23 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "f99666a6-ab94-4d95-856d-af75b1732a88")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.70 60.96)
+			(xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7b9bd4-6b18-4771-9815-afb3167cced4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7496e00-3d0d-416d-ab44-f3f618f0db79")
+		(property "Reference" "#PWR085" (at 142.24 57.15 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 64.77 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "2719c9c7-f3cc-41a6-b41f-1a06eabc2b6a")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.70 63.50)
+			(xy 142.24 63.50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddede3fd-b617-461a-8f47-a15c26b2d963")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 63.50 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27bba80-fa2f-44fc-b791-08df18f1f7bf")
+		(property "Reference" "#PWR086" (at 142.24 59.69 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "GND" (at 142.24 67.31 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 142.24 63.50 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "" (at 142.24 63.50 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Power symbol" (at 142.24 63.50 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1"
+			(uuid "1e26c49c-dd3a-4859-b903-7779faf91a0c")
+		)
+		(instances
+			(project "ESP32S3 Dev Board"
+				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/4c716d68-8be4-48d7-985c-7b878cd2c4c4"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
