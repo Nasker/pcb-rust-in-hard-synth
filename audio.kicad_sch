@@ -3363,16 +3363,7 @@
 		)
 		(uuid "fcd81338-adfd-4803-b3bc-d697daa80a07")
 	)
-	(label "MIDI_OUT_P4"
-		(at 210.82 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1071ee37-5f49-4817-83f7-4db45aa4aa91")
-	)
+
 	(label "MIDI_IN_P5"
 		(at 91.44 144.78 0)
 		(effects
@@ -3403,16 +3394,7 @@
 		)
 		(uuid "5ecd71ac-1e0c-41dd-9d90-cf02ad489f51")
 	)
-	(label "MIDI_OUT_P4"
-		(at 182.88 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62c51926-24af-4701-bf85-0f1f76ed95e5")
-	)
+
 	(label "MIDI_IN_K"
 		(at 113.03 154.94 0)
 		(effects
@@ -3463,26 +3445,8 @@
 		)
 		(uuid "b3da763a-a7bf-42a4-821f-ce665142564c")
 	)
-	(label "MIDI_OUT_P5"
-		(at 182.88 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da06d32a-8859-4838-b96f-ef7c983f49cb")
-	)
-	(label "MIDI_OUT_P5"
-		(at 210.82 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dacd61b2-308a-4d40-b25d-76d0124d7182")
-	)
+
+
 	(global_label "GND"
 		(shape bidirectional)
 		(at 223.52 71.12 0)
