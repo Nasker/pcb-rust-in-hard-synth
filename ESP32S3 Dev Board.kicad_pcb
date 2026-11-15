@@ -1514,7 +1514,7 @@
 	(footprint "Local_Libraries:RotaryEncoder_EC12E-SMD"
 		(layer "F.Cu")
 		(uuid "90f9ef13-01d2-4d9e-ab21-ee9fc93ac157")
-		(at 89.5 120.25 90)
+		(at 103 112.5 90)
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW3"
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 28.24881 -1.43 -0)
+			(at 28.24881 -1.43 0)
 			(layer "F.Fab")
 			(uuid "55dfc905-0309-4050-9c13-49ae18dcc495")
 			(effects
@@ -3388,7 +3388,7 @@
 	(footprint "Package_DIP:SMDIP-6_W9.53mm"
 		(layer "B.Cu")
 		(uuid "3d4f28f8-2bbb-4e72-b027-d82442b55ea5")
-		(at 90.676334 91.46 180)
+		(at 89 90 180)
 		(descr "6-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "OK1"
@@ -3599,7 +3599,7 @@
 			)
 		)
 		(point
-			(at 85.911334 94)
+			(at 84.235 92.54)
 			(size 1.27)
 			(layer "B.Fab")
 			(uuid "85c38e0d-158c-48cd-8d5f-ce1771fd830f")
@@ -4674,7 +4674,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "B.Cu")
 		(uuid "51af93ca-148f-4d3a-863f-476bbb812e4c")
-		(at 90.391334 102 180)
+		(at 97.95 93 180)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D1"
@@ -4959,11 +4959,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "52f3163d-68db-4605-b7c7-7c3243c64715")
-		(at 95.916334 99.968 180)
+		(at 98 89 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 1.43 0)
+			(at 0 1 0)
 			(layer "B.SilkS")
 			(uuid "87af77d2-2426-4d2b-8292-7484b12bd827")
 			(effects
@@ -7915,7 +7915,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "9584a64e-b2af-4035-b533-3dec723ebf85")
-		(at 84.358334 99.714 180)
+		(at 98.175 96 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"

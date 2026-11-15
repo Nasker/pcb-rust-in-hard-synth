@@ -2060,7 +2060,7 @@
 			(uuid "69f2ef61-b931-4460-a19d-e7b5bb6bdaa4")
 		)
 		(instances
-			(project "UI Board"
+			(project "ESP32S3 Dev Board"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/d88afb29-f619-41d9-b2c7-39b5a79080d1"
 					(reference "#PWR030")
 					(unit 1)
@@ -2268,7 +2268,7 @@
 			(uuid "542f17d4-263a-4244-9454-4093082750d2")
 		)
 		(instances
-			(project "UI Board"
+			(project "ESP32S3 Dev Board"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/d88afb29-f619-41d9-b2c7-39b5a79080d1"
 					(reference "U1")
 					(unit 1)
@@ -2346,7 +2346,7 @@
 			(uuid "c6f432b1-57cc-406c-b5c3-4f4636a3dc43")
 		)
 		(instances
-			(project "UI Board"
+			(project "ESP32S3 Dev Board"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/d88afb29-f619-41d9-b2c7-39b5a79080d1"
 					(reference "#PWR031")
 					(unit 1)
@@ -2424,7 +2424,7 @@
 			(uuid "d92511f7-a5c5-4d51-be48-5f612f9a4198")
 		)
 		(instances
-			(project "UI Board"
+			(project "ESP32S3 Dev Board"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/d88afb29-f619-41d9-b2c7-39b5a79080d1"
 					(reference "#PWR032")
 					(unit 1)
