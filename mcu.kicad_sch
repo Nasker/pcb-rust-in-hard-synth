@@ -2102,7 +2102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local_Libraries:ESP32-S3-DevKitC-1-N16R8"
+		(property "Footprint" "Local_Libraries:ESP32-S3-DevKitC-1-N16R8-SMD"
 			(at 199.39 184.15 0)
 			(hide yes)
 			(show_name no)
