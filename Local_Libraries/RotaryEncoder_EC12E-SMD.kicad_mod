@@ -388,7 +388,7 @@
 		(uuid "47686dc9-b9b5-4ae5-868a-c868ae958872")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Local_Libraries/EC12E1220407.step"
+	(model "${KIPRJMOD}/Local_Libraries/RotaryEncoder_EC12E-SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

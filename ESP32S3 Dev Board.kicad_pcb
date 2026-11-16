@@ -90,13 +90,13 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "12797d63-b6c6-40b4-b508-1561452aa2c9")
-		(at 159.25 110 180)
+		(at 160 113.5 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV3"
 			(at -5.375 -6.15 180)
 			(layer "F.SilkS")
-			(uuid "23cc5c42-b108-4f94-8a9e-408008f565ad")
+			(uuid "471a564a-4594-4567-aa4a-e210ae238829")
 			(effects
 				(font
 					(size 1 1)
@@ -104,10 +104,10 @@
 				)
 			)
 		)
-		(property "Value" "Potentiometer_ACP_CA9-VSMD_Vertical"
+		(property "Value" "10k"
 			(at 0 6.15 90)
 			(layer "F.Fab")
-			(uuid "b40dd1a6-f1c9-439d-8215-1dc01be66f1c")
+			(uuid "fe7d9eaf-ba44-4c80-9ffc-60629576f1de")
 			(effects
 				(font
 					(size 1 1)
@@ -119,18 +119,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d34b574-dd5b-473c-9284-b83951e89df7")
+			(uuid "ce55bf13-edc0-40a5-b57f-ea76ce4940ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "948ea64e-221d-4bb1-8444-7cd60c0405b2")
+			(uuid "4097a99f-c3c3-4ab9-91ca-2260bf8c0ace")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,6 +147,16 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/f1592dc5-91fa-4da1-be76-54eafeaa5faa")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
 			)
 		)
 		(attr smd)
@@ -271,6 +281,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "+3V3")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "c8c7b58c-dda8-49cb-ab46-225a542cf263")
 		)
 		(pad "2" smd roundrect
@@ -279,6 +291,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "POT_3")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "bd0af443-6d1e-43c9-897c-da86dc8b719d")
 		)
 		(pad "3" smd roundrect
@@ -287,10 +301,12 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
 			(uuid "b8fadf71-2393-4239-b0f8-97d19c4aeb2f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Local_Libraries/RK09K1130A70.step"
+		(model "${KIPRJMOD}/Local_Libraries/Potentiometer_ACP_CA9-VSMD_Vertical.step"
 			(offset
 				(xyz 0 0 6)
 			)
@@ -305,13 +321,13 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "19849474-3958-4db0-ae23-285315f29afd")
-		(at 109.625 110 180)
+		(at 110.375 113.5 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV1"
 			(at -5 -6.15 0)
 			(layer "F.SilkS")
-			(uuid "e75ebe7a-f35f-4496-bd84-76982661a8bf")
+			(uuid "dec339b8-b9d8-41c1-b50f-7cc29ade06cf")
 			(effects
 				(font
 					(size 1 1)
@@ -319,10 +335,10 @@
 				)
 			)
 		)
-		(property "Value" "Potentiometer_ACP_CA9-VSMD_Vertical"
+		(property "Value" "R_Potentiometer"
 			(at 0 6.15 90)
 			(layer "F.Fab")
-			(uuid "ba0eaaf5-8bf0-4e4c-bcef-2e0dfbd8244f")
+			(uuid "4fea8c99-8295-472d-aff8-f3a843e173fe")
 			(effects
 				(font
 					(size 1 1)
@@ -334,18 +350,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3bdbca0-213c-4bdc-a525-420cf1e19df8")
+			(uuid "76fbe554-8c1b-4473-a678-a3e264cc7b97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97a12be2-ff41-4617-8c1e-a01ea1decde5")
+			(uuid "9fb36769-ce5e-4ae6-90b4-22f5aaeee13f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,6 +378,55 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8637a0e9-3468-4499-ab40-ffeec5a5a605")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e87f846-fc71-4562-a0e7-5ffc8b5cd4ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a334568e-7a73-4c4d-8d53-6e87783b9c33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/ee7218a0-3180-410b-9f69-a382e81524cb")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
 			)
 		)
 		(attr smd)
@@ -486,6 +551,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "+3V3")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "6655d2d7-6c6f-4a66-bfad-5dc1505ac590")
 		)
 		(pad "2" smd roundrect
@@ -494,6 +561,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "POT_1")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "38359fe4-98d9-47bf-94bc-3076e8e31918")
 		)
 		(pad "3" smd roundrect
@@ -502,10 +571,12 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
 			(uuid "0ffca7ac-130b-420e-8b6e-eeb3b53ab995")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Local_Libraries/RK09K1130A70.step"
+		(model "${KIPRJMOD}/Local_Libraries/Potentiometer_ACP_CA9-VSMD_Vertical.step"
 			(offset
 				(xyz 0 0 6)
 			)
@@ -526,7 +597,7 @@
 		(property "Reference" "SW2"
 			(at 0 3.025 0)
 			(layer "F.SilkS")
-			(uuid "3ce66028-2aef-45c6-9c06-b99eecf3b261")
+			(uuid "0c638900-e915-40d8-b766-a4a3e97cbe70")
 			(effects
 				(font
 					(size 1 1)
@@ -534,10 +605,10 @@
 				)
 			)
 		)
-		(property "Value" "Panasonic_EVQPUM_EVQPUD"
+		(property "Value" "SW_Push"
 			(at 0 3.5 0)
 			(layer "F.Fab")
-			(uuid "5587939b-5f74-4088-896e-19eb8049280a")
+			(uuid "7488cdd1-a8f7-47c1-8b35-d43df22f9bb1")
 			(effects
 				(font
 					(size 1 1)
@@ -550,7 +621,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60928540-fe7b-4348-9755-c38a54c517ae")
+			(uuid "39e6819e-c345-42b1-978a-f3e8377964ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,17 +629,26 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0816a00f-1fd8-4f78-8ae5-f6530b103890")
+			(uuid "74611374-18c7-4713-bef0-9741b7230c0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/71bf42fb-6778-4bd1-82bf-674c11ce7f87")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -763,6 +843,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_2")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "e055af6c-535f-4f47-8846-435a5a34002c")
 		)
 		(pad "1" smd rect
@@ -770,6 +852,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_2")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "a6f15c53-59f7-4bd5-9470-cd6036c93f3d")
 		)
 		(pad "2" smd rect
@@ -777,6 +861,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "437fe5d4-c006-486b-bd43-79a62e4ec116")
 		)
 		(pad "2" smd rect
@@ -784,6 +870,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "e033e866-f2da-4db5-a350-39b2e0511c31")
 		)
 		(embedded_fonts no)
@@ -802,13 +890,13 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "2b594abd-9dd1-4eb1-a0f5-1095740ce8ac")
-		(at 184.25 110.5 180)
+		(at 185 114 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV4"
 			(at -5.375 -6.15 180)
 			(layer "F.SilkS")
-			(uuid "6366417e-1b6d-4bf1-9d57-757c53000c6a")
+			(uuid "c116e985-0c44-40fa-a3f8-d4b419672a64")
 			(effects
 				(font
 					(size 1 1)
@@ -816,10 +904,10 @@
 				)
 			)
 		)
-		(property "Value" "Potentiometer_ACP_CA9-VSMD_Vertical"
+		(property "Value" "10k"
 			(at 0 6.15 90)
 			(layer "F.Fab")
-			(uuid "40d9a41f-219c-456a-b066-49e7b525a722")
+			(uuid "db34473d-3eab-4d48-ab85-fcb31a293cec")
 			(effects
 				(font
 					(size 1 1)
@@ -831,18 +919,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47d004a3-bcfb-4c2d-89a6-d858801468d6")
+			(uuid "9f0c6444-7386-484f-8aed-36800ae9bae7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62139f31-6306-4abb-9b07-7d87958071c9")
+			(uuid "64871fdc-bc27-4152-a1f5-1191100de118")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,6 +947,16 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/ed19325f-0b4d-4be9-a6dc-fd70aa5a3525")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
 			)
 		)
 		(attr smd)
@@ -983,6 +1081,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "+3V3")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "848d3c3b-eb40-4519-be74-da704189889d")
 		)
 		(pad "2" smd roundrect
@@ -991,6 +1091,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "POT_4")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "d8fbaf9a-6e9a-4af7-808b-33c4d1fa4467")
 		)
 		(pad "3" smd roundrect
@@ -999,10 +1101,12 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
 			(uuid "d00e9076-3fcd-41c8-b146-5fdd4f87b511")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Local_Libraries/RK09K1130A70.step"
+		(model "${KIPRJMOD}/Local_Libraries/Potentiometer_ACP_CA9-VSMD_Vertical.step"
 			(offset
 				(xyz 0 0 6)
 			)
@@ -1011,6 +1115,506 @@
 			)
 			(rotate
 				(xyz -180 -0 -90)
+			)
+		)
+	)
+	(footprint "Connector_Card:microSD_HC_Wuerth_693072010801"
+		(layer "F.Cu")
+		(uuid "5094ab87-52db-4422-a529-3690b61fec1b")
+		(at 86.55 121.8 90)
+		(descr "http://katalog.we-online.de/em/datasheet/693072010801.pdf")
+		(tags "Micro SD Wuerth Wurth Würth")
+		(property "Reference" "J6"
+			(at 0 -7.99 90)
+			(layer "F.SilkS")
+			(uuid "3f9c4f9a-8b5d-4371-b3e8-d7090703e556")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 0 9.22 90)
+			(layer "F.Fab")
+			(uuid "fd82be4f-e0f5-414c-9a4e-7995fb6f790c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9281d546-b2ea-4802-9646-68fc3a1ec5e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b35351-d8dd-44b0-9c5e-109b629eacb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "microSD*")
+		(path "/d88afb29-f619-41d9-b2c7-39b5a79080d1/306291bf-3ad1-4163-9c59-f9aec5c0f317")
+		(sheetname "/MCU/")
+		(sheetfile "mcu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "SH")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5 -7.31)
+			(end 5 -7.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f0d3f896-ab73-4e46-98ab-b7ac1f878da9")
+		)
+		(fp_line
+			(start -5.5 -6.71)
+			(end -4.7 -6.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fa05906d-882f-444c-ac40-272365f7f4e8")
+		)
+		(fp_line
+			(start 5 -6.61)
+			(end 5.5 -6.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1fe75895-919c-4feb-84d8-0ad9b5d343f7")
+		)
+		(fp_line
+			(start -4.7 -6.51)
+			(end -3 -6.21)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "da9fb881-6977-4e0d-acc0-b24f98b05a96")
+		)
+		(fp_line
+			(start 3.7 -6.31)
+			(end 5 -6.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7d96344a-0ee6-4c68-8041-3dde8ff328c4")
+		)
+		(fp_line
+			(start -3 -6.21)
+			(end -2.2 -6.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8fa5db25-c1fa-4177-97f5-655d50dd7d7d")
+		)
+		(fp_line
+			(start 2.2 -6.11)
+			(end 3.7 -6.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee532f58-606c-43f6-a11d-0763b966fc05")
+		)
+		(fp_line
+			(start -2.2 -6.11)
+			(end -0.9 -6.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ca9ac0a-ec9c-444b-9477-75e711436859")
+		)
+		(fp_line
+			(start 0.9 -6.01)
+			(end 2.2 -6.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d5f5ac7-cf94-4955-a1a5-6d88b35bb10f")
+		)
+		(fp_line
+			(start -0.9 -6.01)
+			(end 0.9 -6.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8b925de-6ebc-4d6f-afb0-8b51ed2bfa7a")
+		)
+		(fp_line
+			(start 6.91 -5.81)
+			(end 6.91 -5.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06d17749-e4b4-4c49-9461-0c82a59b83e6")
+		)
+		(fp_line
+			(start 5.5 -5.81)
+			(end 5.5 -6.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f3256ce-9318-4ce7-9cbf-ba6e0e4dcb1c")
+		)
+		(fp_line
+			(start -5.5 -5.81)
+			(end -5.5 -6.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a50ba681-e860-45bd-a656-36ab26e3b654")
+		)
+		(fp_line
+			(start -6.91 -5.81)
+			(end 6.91 -5.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc8ecdb1-6b94-4068-8f0b-3321417ce9b1")
+		)
+		(fp_line
+			(start -6.91 -5.81)
+			(end -6.91 -5.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "41a216c8-ec0d-4116-b3fa-a5a88c9c856f")
+		)
+		(fp_line
+			(start 6.91 -2.89)
+			(end 6.91 2.89)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8acd581f-cd36-4a81-ac69-535e76ba540c")
+		)
+		(fp_line
+			(start -6.91 -2.89)
+			(end -6.91 2.89)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "49351605-b3c6-4193-8cda-5ebc8a5dfbeb")
+		)
+		(fp_line
+			(start 6.91 5.41)
+			(end 6.91 8.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0501a5bd-e88f-42d8-aefe-107f3901d781")
+		)
+		(fp_line
+			(start -6.91 5.41)
+			(end -6.91 8.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9564a0a4-6fcb-4161-851f-904e17acfe31")
+		)
+		(fp_line
+			(start 6.91 8.11)
+			(end -6.91 8.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8db68fa-9ca9-4ea0-9619-edc16cc4bf1f")
+		)
+		(fp_arc
+			(start 5 -7.31)
+			(mid 5.353553 -7.163553)
+			(end 5.5 -6.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce1e69f5-4e57-4bf8-b414-240ea046887d")
+		)
+		(fp_arc
+			(start -5.5 -6.81)
+			(mid -5.353553 -7.163553)
+			(end -5 -7.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dcd1f89f-3015-4a27-a3cc-33e3dc60dbf9")
+		)
+		(fp_line
+			(start 8.08 -6.2)
+			(end -8.08 -6.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24f37274-1048-44be-b5f3-7d1d7c7f1881")
+		)
+		(fp_line
+			(start 8.08 -6.2)
+			(end 8.08 8.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddd67547-ac3a-45e1-becc-aba953d9734d")
+		)
+		(fp_line
+			(start -8.08 -6.2)
+			(end -8.08 8.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7225e0ed-7cbc-4df7-aa88-239e5ba6148b")
+		)
+		(fp_line
+			(start 8.08 8.5)
+			(end -8.08 8.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3dece86-ec9b-4013-8ed9-83d1c14dc330")
+		)
+		(fp_line
+			(start 6.8 -5.7)
+			(end -6.8 -5.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bbada42f-ab19-4768-983a-d47048268d8a")
+		)
+		(fp_line
+			(start -6.8 -5.7)
+			(end -6.8 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "387345be-9216-445e-9ca7-ea510c9cd335")
+		)
+		(fp_line
+			(start 6.8 8)
+			(end 6.8 -5.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e999c61e-eac5-4088-98ee-f09e3b83d648")
+		)
+		(fp_line
+			(start -6.8 8)
+			(end 6.8 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4bf4f6e3-0024-476e-9d32-09e76d8d476a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.15 90)
+			(layer "F.Fab")
+			(uuid "9ff99270-a18e-42de-8575-dc1d101653db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.2 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J6-DAT2-Pad1)")
+			(pinfunction "DAT2_1")
+			(pintype "bidirectional+no_connect")
+			(uuid "72781e94-99ea-422c-80ae-31d55893e5e1")
+		)
+		(pad "2" smd rect
+			(at -2.1 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "SD_CS")
+			(pinfunction "DAT3/CD_2")
+			(pintype "bidirectional")
+			(uuid "ba2a8fc1-5fa7-4ebc-a4ca-2b704936a7c3")
+		)
+		(pad "3" smd rect
+			(at -1 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "SD_MOSI")
+			(pinfunction "CMD_3")
+			(pintype "input")
+			(uuid "8f3dda3e-cfbb-4a22-a438-59b995a903fa")
+		)
+		(pad "4" smd rect
+			(at 0.1 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+3V3")
+			(pinfunction "VDD_4")
+			(pintype "power_in")
+			(uuid "72b7b232-6829-465a-b585-a9bdf11497ae")
+		)
+		(pad "5" smd rect
+			(at 1.2 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "SD_SCK")
+			(pinfunction "CLK_5")
+			(pintype "input")
+			(uuid "e06ce6f1-26df-4835-91bb-81d8a3728f0d")
+		)
+		(pad "6" smd rect
+			(at 2.3 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "VSS_6")
+			(pintype "power_in")
+			(uuid "bfc379b4-b74d-4f31-9592-560484922934")
+		)
+		(pad "7" smd rect
+			(at 3.4 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "SD_MISO")
+			(pinfunction "DAT0_7")
+			(pintype "bidirectional")
+			(uuid "9e81bb81-72be-49f4-a798-e69cac4a7d19")
+		)
+		(pad "8" smd rect
+			(at 4.5 -1.55 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J6-DAT1-Pad8)")
+			(pinfunction "DAT1_8")
+			(pintype "bidirectional+no_connect")
+			(uuid "d297e9cd-9af6-4f41-8c2f-4b3a2c55790d")
+		)
+		(pad "SH" smd rect
+			(at -6.875 -4.15 90)
+			(size 1.45 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
+			(uuid "7c1f2348-3d9a-4d04-9a95-4880c90993dd")
+		)
+		(pad "SH" smd rect
+			(at -6.875 4.15 90)
+			(size 1.45 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
+			(uuid "16ec787d-3d28-4c73-8785-5e88da2b98a7")
+		)
+		(pad "SH" smd rect
+			(at 6.875 -4.15 90)
+			(size 1.45 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
+			(uuid "67d872e1-4393-4aea-88c3-a252bf10f15c")
+		)
+		(pad "SH" smd rect
+			(at 6.875 4.15 90)
+			(size 1.45 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
+			(uuid "559251ca-4f1a-4917-b00a-44fe64fee808")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Local_Libraries/693072010801.step"
+			(offset
+				(xyz 0 -1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -1023,7 +1627,7 @@
 		(property "Reference" "SW1"
 			(at 0 3 0)
 			(layer "F.SilkS")
-			(uuid "e90f6fb3-ed7d-4906-9b00-a6a382991b34")
+			(uuid "9f73890c-a9d0-4ca8-86dd-24978978fdf5")
 			(effects
 				(font
 					(size 1 1)
@@ -1031,10 +1635,10 @@
 				)
 			)
 		)
-		(property "Value" "Panasonic_EVQPUM_EVQPUD"
+		(property "Value" "SW_Push"
 			(at 0 3.5 0)
 			(layer "F.Fab")
-			(uuid "3d49b0b7-edc1-4560-aecb-c5ca132c0d77")
+			(uuid "97acb73f-688d-451c-8083-a4265aadedc7")
 			(effects
 				(font
 					(size 1 1)
@@ -1047,7 +1651,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aafc2cb3-4c09-48f8-ba53-c09e1ec41e53")
+			(uuid "627cb0ae-e22d-4e29-b1f0-822e6c4d89f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,17 +1659,26 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9d02648-9a3e-4cce-91ce-0a46e98c3206")
+			(uuid "ce393f06-b4e8-4181-93d5-c86b2186247e")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/6257147f-4b02-4d67-a5db-a346a7060c51")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -1260,6 +1873,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_1")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "cb3d72dd-acba-4786-bc03-540eaebbeefc")
 		)
 		(pad "1" smd rect
@@ -1267,6 +1882,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_1")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "a835362d-a55e-4448-9577-bcf2719c95aa")
 		)
 		(pad "2" smd rect
@@ -1274,6 +1891,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "f1fc9a76-d8cb-46a6-9f10-8c808910f759")
 		)
 		(pad "2" smd rect
@@ -1281,6 +1900,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "b952410b-de41-4744-b1bf-86096bf64a55")
 		)
 		(embedded_fonts no)
@@ -1299,13 +1920,13 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "7febb302-c058-4356-bdd4-c323524bf6e8")
-		(at 134.625 110 180)
+		(at 135.375 113.5 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV2"
 			(at -5 -6.15 180)
 			(layer "F.SilkS")
-			(uuid "508af80c-4492-49da-9d0d-9dc6cae70e23")
+			(uuid "e81bbce7-ec95-444a-9fc4-019c01f914a1")
 			(effects
 				(font
 					(size 1 1)
@@ -1313,10 +1934,10 @@
 				)
 			)
 		)
-		(property "Value" "Potentiometer_ACP_CA9-VSMD_Vertical"
+		(property "Value" "10k"
 			(at 1.625 11 90)
 			(layer "F.Fab")
-			(uuid "aec2a63f-b260-4036-834d-3e452e8b2951")
+			(uuid "721932de-383e-48c6-bd7f-2044ca825470")
 			(effects
 				(font
 					(size 1 1)
@@ -1328,18 +1949,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10e14ccd-762e-4827-bfd7-525f081cf8c3")
+			(uuid "e8770968-40ff-4d1e-a737-1d6146ca69b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "153f0eef-f930-494b-8ed6-66112128e19b")
+			(uuid "3018cb53-dbbc-49ef-a8a9-f37015ec9b09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,6 +1977,16 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/7dd0231c-485d-4457-a7e1-36cd04a4d5d6")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
 			)
 		)
 		(attr smd)
@@ -1480,6 +2111,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "+3V3")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "7af26085-c0a2-4897-be73-cde8a1f70885")
 		)
 		(pad "2" smd roundrect
@@ -1488,6 +2121,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "POT_2")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "2e7fa30e-5667-4a47-8b89-e28897a15e8e")
 		)
 		(pad "3" smd roundrect
@@ -1496,10 +2131,12 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
 			(uuid "3544a04f-5330-41f8-8b46-c93c95ddf1b0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Local_Libraries/RK09K1130A70.step"
+		(model "${KIPRJMOD}/Local_Libraries/Potentiometer_ACP_CA9-VSMD_Vertical.step"
 			(offset
 				(xyz 0 0 6)
 			)
@@ -1514,13 +2151,13 @@
 	(footprint "Local_Libraries:RotaryEncoder_EC12E-SMD"
 		(layer "F.Cu")
 		(uuid "90f9ef13-01d2-4d9e-ab21-ee9fc93ac157")
-		(at 185 100 90)
+		(at 110.1 92.25 90)
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW3"
 			(at -2.5 8.1 0)
 			(layer "F.SilkS")
-			(uuid "5fecc041-974a-49bc-a666-e12aed8b162d")
+			(uuid "86d83f26-ffc5-4bec-9d85-822f8765eeee")
 			(effects
 				(font
 					(size 1 1)
@@ -1528,10 +2165,10 @@
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder_EC12E-SMD"
+		(property "Value" "RotaryEncoder_Switch"
 			(at 7.5 10.4 0)
 			(layer "F.Fab")
-			(uuid "aa1777a5-577e-4ccd-b448-86e99099abf2")
+			(uuid "6e9caa33-7b1d-4ceb-82ab-75c96e0a1158")
 			(effects
 				(font
 					(size 1 1)
@@ -1544,7 +2181,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "804e990f-2544-410d-9ac9-392573e53635")
+			(uuid "21e021d6-84d8-467c-87b4-a91973305c5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,17 +2189,27 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6325166-dacc-44a0-9c67-95f9965a3d01")
+			(uuid "48f8b522-40c5-439e-abdf-4d79d1e3e6d0")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property ki_fp_filters "RotaryEncoder*Switch*")
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/64acbd97-9192-4536-aac4-e7f84407a181")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C" "B" "S1" "S2")
 			)
 		)
 		(attr smd)
@@ -1855,6 +2502,8 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "ENC_CLK")
+			(pinfunction "A_A")
+			(pintype "passive")
 			(uuid "4498782f-a4a8-41af-a045-b9171e112ac5")
 		)
 		(pad "B" smd rect
@@ -1862,6 +2511,8 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "ENC_DT")
+			(pinfunction "B_B")
+			(pintype "passive")
 			(uuid "bcdf51b5-7b46-4063-9a64-be2f0fd1a2eb")
 		)
 		(pad "C" smd rect
@@ -1869,6 +2520,8 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "C_C")
+			(pintype "passive")
 			(uuid "3f11e8f5-1f9b-4e39-b0e0-3836168d6122")
 		)
 		(pad "MP" smd rect
@@ -1888,6 +2541,8 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "ENC_SW")
+			(pinfunction "S1_S1")
+			(pintype "passive")
 			(uuid "6ca30ae0-f933-4777-a53e-a0b955dcf4e4")
 		)
 		(pad "S2" smd rect
@@ -1895,10 +2550,12 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "S2_S2")
+			(pintype "passive")
 			(uuid "04099975-8794-43f0-83cd-3b7ca1765e37")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Local_Libraries/EC12E1220407.step"
+		(model "${KIPRJMOD}/Local_Libraries/RotaryEncoder_EC12E-SMD.step"
 			(offset
 				(xyz 7.5 -2.5 2.5)
 			)
@@ -1919,7 +2576,7 @@
 		(property "Reference" "DS1"
 			(at 7.62 -4 90)
 			(layer "F.SilkS")
-			(uuid "0eaae87c-0602-4c88-864a-ec22b98c64b8")
+			(uuid "0bcbd606-e047-434a-b5aa-cceec968f029")
 			(effects
 				(font
 					(size 1 1)
@@ -1927,10 +2584,10 @@
 				)
 			)
 		)
-		(property "Value" "OLED-1.3inch-128x64-SPI"
+		(property "Value" "OLED-128x64-SPI"
 			(at 7.62 4 90)
 			(layer "F.Fab")
-			(uuid "32184739-e323-460d-b576-a6c984fecf9d")
+			(uuid "158248e0-f50d-4c06-8072-7acecd4e2b3d")
 			(effects
 				(font
 					(size 1 1)
@@ -1938,26 +2595,35 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c74a6da-8f73-4a7f-8d64-9942eda74cfd")
+			(uuid "99fc78cd-a6e7-437b-bff7-d28a6f1a7168")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "1.3in OLED module socket"
+		(property "Description" "128x64 OLED display module, 4-wire SPI (SSD1306/SH1106), 7-pin header"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3af7be4-ffba-4142-b67b-76cd08e3bde7")
+			(uuid "ec126503-b231-44c3-98c7-60029be50c8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/035461c0-9fb4-48b0-be56-4096956ab2ca")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "4" "5" "6" "7" "2" "1")
 			)
 		)
 		(attr smd)
@@ -2029,6 +2695,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "GND_1")
+			(pintype "power_in")
 			(uuid "47152a46-c16e-4f87-96ed-33c1a1f6955c")
 		)
 		(pad "2" smd rect
@@ -2036,6 +2704,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3")
+			(pinfunction "VCC_2")
+			(pintype "power_in")
 			(uuid "371dbb0a-f3ba-4a6b-a828-0e1d620808c9")
 		)
 		(pad "3" smd rect
@@ -2043,6 +2713,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "OLED_SCK")
+			(pinfunction "SCK_3")
+			(pintype "input")
 			(uuid "8ec73101-da6f-41c8-a701-b7703d1f1100")
 		)
 		(pad "4" smd rect
@@ -2050,6 +2722,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "OLED_SDA")
+			(pinfunction "SDA_4")
+			(pintype "input")
 			(uuid "440d9175-69d6-4682-9297-372cec0dfb48")
 		)
 		(pad "5" smd rect
@@ -2057,6 +2731,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "OLED_RES")
+			(pinfunction "RES_5")
+			(pintype "input")
 			(uuid "18d5b5e2-9873-4a02-a6a7-f5d30bda14b9")
 		)
 		(pad "6" smd rect
@@ -2064,6 +2740,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "OLED_DC")
+			(pinfunction "DC_6")
+			(pintype "input")
 			(uuid "42599ef5-bb36-440b-95a0-14db77fc040e")
 		)
 		(pad "7" smd rect
@@ -2071,6 +2749,8 @@
 			(size 1.5 2.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "OLED_CS")
+			(pinfunction "~CS_7")
+			(pintype "input")
 			(uuid "6598bcf7-30f0-4e8b-bb07-7a677249958f")
 		)
 		(embedded_fonts no)
@@ -2095,7 +2775,7 @@
 		(property "Reference" "SW4"
 			(at 0 3.15 0)
 			(layer "F.SilkS")
-			(uuid "eda883c4-0596-4421-876b-de74c72aeb7f")
+			(uuid "a99afec6-e41f-49e4-9774-afa6e67f76c6")
 			(effects
 				(font
 					(size 1 1)
@@ -2103,10 +2783,10 @@
 				)
 			)
 		)
-		(property "Value" "Panasonic_EVQPUM_EVQPUD"
+		(property "Value" "SW_Push"
 			(at 0 3.5 0)
 			(layer "F.Fab")
-			(uuid "7a0c0074-1f74-4299-84e5-7447128b7042")
+			(uuid "7b7fb28c-ae5d-4237-afda-789f67c6fda7")
 			(effects
 				(font
 					(size 1 1)
@@ -2119,7 +2799,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9477312c-4b42-4dde-92ae-b1498d61a266")
+			(uuid "d8a9528b-d6a5-4de0-a961-a8f163eccf31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,17 +2807,26 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20ea6eb2-b4ab-43ee-b47e-ea2f72c3e39d")
+			(uuid "1889deda-67ac-43dc-be14-c2e0a8cdfda6")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/b1f362ad-1313-42da-892e-243efdde257a")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -2332,6 +3021,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_3")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "a5acf9a2-d9a0-4fa6-b4ae-0ab34fbde413")
 		)
 		(pad "1" smd rect
@@ -2339,6 +3030,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_3")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "1ecd37d6-df84-4a64-8416-712e7d6cee8f")
 		)
 		(pad "2" smd rect
@@ -2346,6 +3039,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "a47626bf-ea74-4ee0-a5df-d22f3ed1cbb1")
 		)
 		(pad "2" smd rect
@@ -2353,6 +3048,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "381db9da-c8ea-4eb9-b726-7218896618bb")
 		)
 		(embedded_fonts no)
@@ -2377,7 +3074,7 @@
 		(property "Reference" "SW5"
 			(at 0 3.15 0)
 			(layer "F.SilkS")
-			(uuid "198b6f18-4a92-4522-8f32-a80c882fcc0a")
+			(uuid "f729a39e-1779-4f58-878d-1dcc9c9894f4")
 			(effects
 				(font
 					(size 1 1)
@@ -2385,10 +3082,10 @@
 				)
 			)
 		)
-		(property "Value" "Panasonic_EVQPUM_EVQPUD"
+		(property "Value" "SW_Push"
 			(at 0 3.5 0)
 			(layer "F.Fab")
-			(uuid "13c4f9bb-3c8e-44b7-8c84-ea5ad4094f21")
+			(uuid "1cea2c02-6bf7-4ac6-aac8-5d4c074dc80d")
 			(effects
 				(font
 					(size 1 1)
@@ -2401,7 +3098,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1046d13-2b2c-4b06-ae91-4250d80918ef")
+			(uuid "cf61770e-fdb9-4f63-b261-b6a262a8a1fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,17 +3106,26 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad5fa00a-427f-4f5f-858b-30cffca6225b")
+			(uuid "e778f5fc-e715-4c3d-bfbe-1802682f1a75")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(path "/016b678d-7e96-4b02-b3ae-4748e5ff0f88/6571c6b7-b376-4ce2-bc24-8919ab5a7838")
+		(sheetname "/UI/")
+		(sheetfile "ui.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -2614,6 +3320,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_4")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "55d1aaf3-88b3-4ad4-80d8-4c2ec9c26224")
 		)
 		(pad "1" smd rect
@@ -2621,6 +3329,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "BTN_4")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "e4b6e488-0b1b-4213-80fe-08919a9d4327")
 		)
 		(pad "2" smd rect
@@ -2628,6 +3338,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "a1238606-2da1-4d6f-bce0-434ea69dab1c")
 		)
 		(pad "2" smd rect
@@ -2635,6 +3347,8 @@
 			(size 1.45 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "e769fb05-f1d3-4fc3-ad51-cafe66af10c5")
 		)
 		(embedded_fonts no)
@@ -2659,7 +3373,7 @@
 		(property "Reference" "C7"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "dbbb2b29-6069-4020-922e-7a80e3aa4856")
+			(uuid "94e32979-ffd7-49a5-b4ca-3e9da0228537")
 			(effects
 				(font
 					(size 1 1)
@@ -2671,7 +3385,7 @@
 		(property "Value" "1u"
 			(at 28.24881 -1.43 0)
 			(layer "F.Fab")
-			(uuid "55dfc905-0309-4050-9c13-49ae18dcc495")
+			(uuid "815cfef1-326d-4b33-8b6d-46215a3c5234")
 			(effects
 				(font
 					(size 1 1)
@@ -2679,11 +3393,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6df91bd0-30a7-4746-98a0-54e2548678a2")
+			(uuid "ee5c4827-bd68-4d44-ba42-fa9a36ef6f7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,11 +3405,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2c473d01-1523-4f85-aefe-be7853d23db6")
+			(uuid "cd4a9f72-9546-4ee3-a303-41df66d279df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,6 +3428,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/c1d30b60-adda-4ea9-97ce-9ffd45bbb086")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -2778,6 +3502,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "AUDIO_IN_R")
+			(pintype "passive")
 			(uuid "4e6430e2-36c1-41e9-b591-709b5e9c2062")
 		)
 		(pad "2" smd roundrect
@@ -2785,7 +3510,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_IN_R")
+			(net "Net-(C7-Pad2)")
+			(pintype "passive")
 			(uuid "12852c6f-cc95-4844-a166-2e8dfc07fd37")
 		)
 		(embedded_fonts no)
@@ -2809,7 +3535,7 @@
 		(property "Reference" "C9"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "f8f7bfd4-5bb7-44dd-9cf9-4ea19f8f8058")
+			(uuid "a5c3ebd4-6858-45fa-98b8-ded6331bc1e2")
 			(effects
 				(font
 					(size 1 1)
@@ -2821,7 +3547,7 @@
 		(property "Value" "1n"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "cf407c55-0308-4eff-9e84-12c0a9107f0b")
+			(uuid "1fedffa1-869c-4197-9ff7-3b454b315d01")
 			(effects
 				(font
 					(size 1 1)
@@ -2830,11 +3556,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e526930b-96ab-4111-95bb-de173af6be6d")
+			(uuid "4fdcf622-a5c1-425e-93a5-b7ef893258fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,16 +3568,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "35ecf581-e091-4f9c-8393-a3e868710d0d")
+			(uuid "5dedfe81-b916-48fa-bb64-5bf239fa4998")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/42676ff7-c1eb-43a6-bac3-27cc4d5901cb")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -2861,7 +3597,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_IN_R")
+			(net "Net-(U7-VINR1{slash}VIN2P)")
+			(pintype "passive")
 			(uuid "16667311-0a5e-46dd-ae02-212c6f3ec833")
 		)
 		(pad "2" smd roundrect
@@ -2870,6 +3607,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "69d5e205-de26-4fa0-95ec-1e503a60c394")
 		)
 		(embedded_fonts no)
@@ -2882,7 +3620,7 @@
 		(property "Reference" "R5"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "e2ac2644-d659-4b70-b4b4-e0eccdbdeceb")
+			(uuid "453575bc-6c1a-47dc-99ed-9b41eed6a844")
 			(effects
 				(font
 					(size 1 1)
@@ -2894,7 +3632,7 @@
 		(property "Value" "1k"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "dc4f7ba5-aaca-48a9-a265-43ebd0091fdb")
+			(uuid "0376021d-6c82-400c-91f2-98e8afff5b01")
 			(effects
 				(font
 					(size 1 1)
@@ -2903,11 +3641,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e80b2cce-a2b4-486f-b743-ee33fd49f333")
+			(uuid "3a4bf5eb-1acb-49ac-aacc-73fd0d534723")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,16 +3653,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "85633735-72c2-429d-8d57-51df172c7e3c")
+			(uuid "e1717474-368d-49b6-b23c-2874ee9ce4b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/8b3e0179-373d-4eba-b1cd-efbf7e445667")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -2934,7 +3682,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_FIL_L")
+			(net "Net-(C6-Pad2)")
+			(pintype "passive")
 			(uuid "9bb61f16-828b-4003-95ae-19f69d1e293a")
 		)
 		(pad "2" smd roundrect
@@ -2942,7 +3691,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_IN_L")
+			(net "Net-(U7-VINL1{slash}VIN1P)")
+			(pintype "passive")
 			(uuid "4a8a8bac-ed9d-4d28-91f1-2fb79fd888f5")
 		)
 		(embedded_fonts no)
@@ -2955,7 +3705,7 @@
 		(property "Reference" "C10"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "6c1aac64-69da-4f55-8677-724db9053f94")
+			(uuid "bea19b9d-0c80-4548-8630-4a8a10f7fcbb")
 			(effects
 				(font
 					(size 1 1)
@@ -2967,7 +3717,7 @@
 		(property "Value" "4.7n"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "2074b5fb-92fe-48e3-a7e8-8c1ac4196114")
+			(uuid "bc5cfa05-6326-413d-b4ea-4b2e4896fa2f")
 			(effects
 				(font
 					(size 1 1)
@@ -2976,11 +3726,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "601e527e-26bb-41f2-8714-042992720cb0")
+			(uuid "7a9c4c4b-63de-41d3-ac8e-ec7954ba82aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,16 +3738,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2c67772a-7072-43e2-8bad-c85626606ff0")
+			(uuid "fac0347d-8389-4ae6-be4c-59fd2b224482")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/1c3f73e8-6ca7-4453-bb71-a08be5c8ac75")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -3008,6 +3768,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "AUDIO_OUT_L")
+			(pintype "passive")
 			(uuid "8360ae8d-4e36-4fdd-a25a-7cc0aec53359")
 		)
 		(pad "2" smd roundrect
@@ -3016,6 +3777,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "486c9e82-d3c0-4a58-8f9c-c01916201a01")
 		)
 		(embedded_fonts no)
@@ -3028,7 +3790,7 @@
 		(property "Reference" "C16"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "4c1d7745-bda9-4f2a-9cc8-9cb4aa16f2a8")
+			(uuid "b86f0c19-05e0-47ee-b4ff-a65180ebefe8")
 			(effects
 				(font
 					(size 1 1)
@@ -3040,7 +3802,7 @@
 		(property "Value" "10u"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "cfb05f5e-3d2c-4024-97e3-621ab4d36637")
+			(uuid "01d490f1-b8f9-4613-b0bf-3078b0ab09d8")
 			(effects
 				(font
 					(size 1 1)
@@ -3049,11 +3811,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ccb726bc-6b15-48d0-b29d-2e058a161076")
+			(uuid "dcc4aad2-0975-4218-bd77-2e2df42e4e84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,16 +3823,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "68b4ae92-cebf-4f33-96df-2938cc36b704")
+			(uuid "1d869daa-8432-4227-b9a0-4b17b660e1ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/2159ef56-08f3-4563-99a2-5d911647f787")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -3081,6 +3853,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "de7d26db-bc86-4edc-aa27-d4c2b7e4b1e5")
 		)
 		(pad "2" smd roundrect
@@ -3089,6 +3862,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "c195e69e-479e-4e4c-a13c-3d18f11da8c0")
 		)
 		(embedded_fonts no)
@@ -3101,7 +3875,7 @@
 		(property "Reference" "R9"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "e91cdb17-8dc4-416c-9575-3cb2e6c994da")
+			(uuid "a002fe2f-ad0b-4fbf-9cb3-a63052d814ea")
 			(effects
 				(font
 					(size 1 1)
@@ -3113,7 +3887,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "546a8da2-e08e-4116-b5bd-ea91b0f8b08f")
+			(uuid "c5408c68-aee1-415e-b48f-4306bab7d348")
 			(effects
 				(font
 					(size 1 1)
@@ -3122,11 +3896,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e0e2ee42-6e86-4371-a284-614dbe413299")
+			(uuid "2204516a-129c-423b-99d1-7d3cad10eeb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,16 +3908,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9896b6a9-e5e0-42ea-af5e-58a1894399bb")
+			(uuid "16365396-70f7-4db5-abb0-017b9cf084ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/33c0697f-c613-4b9e-ba11-16e12b4eebad")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -3154,6 +3938,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_LRCK")
+			(pintype "passive")
 			(uuid "9817cb58-33ff-4bbc-8aba-d3295d060e8a")
 		)
 		(pad "2" smd roundrect
@@ -3161,7 +3946,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_LRCK_F")
+			(net "Net-(U5-LRCK)")
+			(pintype "passive")
 			(uuid "b2dd506c-1698-410b-9a5d-0439e40c9bbf")
 		)
 		(embedded_fonts no)
@@ -3174,7 +3960,7 @@
 		(property "Reference" "R12"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "a31402f3-8aec-411d-a880-049bc1e8feda")
+			(uuid "042f0666-f7ab-4dd0-bb4d-ac50254bcb33")
 			(effects
 				(font
 					(size 1 1)
@@ -3186,7 +3972,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "4541e4f2-9ddf-4e14-bb11-7ded572438e7")
+			(uuid "3c5bf304-c702-4964-92a7-b73ddc707383")
 			(effects
 				(font
 					(size 1 1)
@@ -3195,11 +3981,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a949e665-0a68-4741-8ec7-a19969ccc951")
+			(uuid "239633ed-2608-434f-8c61-805463bd67f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,16 +3993,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "31a763ff-0aaf-4a13-bb9b-63980d387526")
+			(uuid "a4e9c350-9a40-4af0-a70d-47eaf7d740ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/555e16e6-47bd-4e1b-b3b2-9daf507fef46")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -3227,6 +4023,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_MCLK")
+			(pintype "passive")
 			(uuid "56241525-36d2-4699-9a21-44c1521124d1")
 		)
 		(pad "2" smd roundrect
@@ -3234,7 +4031,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_MCLK_F")
+			(net "Net-(U5-SCK)")
+			(pintype "passive")
 			(uuid "be2a047d-2e42-4491-b8b9-83057a6cf28d")
 		)
 		(embedded_fonts no)
@@ -3247,7 +4045,7 @@
 		(property "Reference" "R15"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "e30248a9-8864-4cf4-bf4e-43cdb7fe683e")
+			(uuid "421bfe69-d2b0-4de8-b902-98ae18db668e")
 			(effects
 				(font
 					(size 1 1)
@@ -3259,7 +4057,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "c48f0418-9a7d-48ce-b417-f1fc5bed64ae")
+			(uuid "437d167e-3ebd-40a4-aac4-51c252a9fd6c")
 			(effects
 				(font
 					(size 1 1)
@@ -3268,11 +4066,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eeb06e6a-c8b1-4c86-ad9f-34b8353c0b61")
+			(uuid "f5d42aaa-182b-4ac8-9676-7543254c3e94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,16 +4078,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f5eea20d-7626-412f-9244-a5d035ac821f")
+			(uuid "5115d98f-f7f2-4da7-a34a-f7c00b457445")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/3e6072c3-0175-46e3-a02e-aaf285715750")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -3299,7 +4107,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_ADC_DOUT")
+			(net "Net-(U7-DOUT)")
+			(pintype "passive")
 			(uuid "ca75f4b6-d39a-49e8-a5a9-f5a1edb471fd")
 		)
 		(pad "2" smd roundrect
@@ -3307,7 +4116,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_ADC_DOUT_F")
+			(net "I2S_ADC_DOUT")
+			(pintype "passive")
 			(uuid "cee61e2d-1d99-4382-abcd-6cfbaa7664bb")
 		)
 		(embedded_fonts no)
@@ -3320,7 +4130,7 @@
 		(property "Reference" "R7"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "0963ef6a-68aa-4250-9434-b2fcda1f1035")
+			(uuid "e6c14392-09dd-457b-936b-5a607b87d5aa")
 			(effects
 				(font
 					(size 1 1)
@@ -3332,7 +4142,7 @@
 		(property "Value" "470R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "71940d87-9df5-4c1d-af3b-38030dadfe25")
+			(uuid "761db37d-b06d-4b3f-9d0b-2c043d911877")
 			(effects
 				(font
 					(size 1 1)
@@ -3341,11 +4151,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "79be0d4c-d515-4d3e-b06a-a1e0d6e10586")
+			(uuid "9c6134c6-4361-4eb4-bab5-e49a1d2f653b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,16 +4163,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d7c66806-bacf-462d-a8ae-d9e33d1aa9da")
+			(uuid "4558b098-c8fc-4794-906a-527839e98f1a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/f0a1daf3-7b52-42e2-a5aa-786f91f05b1b")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -3372,7 +4192,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AFIL_L")
+			(net "Net-(U5-OUTL)")
+			(pintype "passive")
 			(uuid "b8ce7c8f-efbd-451d-92d4-3e23ff31b82e")
 		)
 		(pad "2" smd roundrect
@@ -3381,6 +4202,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "AUDIO_OUT_L")
+			(pintype "passive")
 			(uuid "6ee4a93c-705d-4972-ba6f-53d54e64babf")
 		)
 		(embedded_fonts no)
@@ -3394,7 +4216,7 @@
 		(property "Reference" "OK1"
 			(at 0 4.87 0)
 			(layer "B.SilkS")
-			(uuid "54a7771f-93c3-42f8-81aa-3a0a783fdce7")
+			(uuid "5844a858-a113-44af-b0ff-d5c274259102")
 			(effects
 				(font
 					(size 1 1)
@@ -3406,7 +4228,7 @@
 		(property "Value" "H11L1"
 			(at 0 -4.87 0)
 			(layer "B.Fab")
-			(uuid "10a8d244-a46c-4734-96f4-e1cd46b4f372")
+			(uuid "3707ea6e-e470-4b36-a26c-6d6ccb1d99eb")
 			(effects
 				(font
 					(size 1 1)
@@ -3419,7 +4241,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5f0efa07-bfdc-44d4-b121-056170c60d54")
+			(uuid "85a062c7-3a8c-45f6-9cfa-c4b4f78b0ab6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +4253,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ccc5692-5993-4bd3-9f8e-0e0be15b5eb3")
+			(uuid "96004c1a-73b9-452e-9d6e-fa91db87feb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,9 +4275,9 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W9.53mm*")
-		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/44460386-5986-4151-9286-515d3e15f925")
-		(sheetname "/AUDIO/")
-		(sheetfile "audio.kicad_sch")
+		(path "/520a41cd-cc0e-4519-98f7-dd15ca01a195/a074004f-eb4a-4ce9-bba0-3ba5622e8501")
+		(sheetname "/MIDI/")
+		(sheetfile "midi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3609,7 +4431,7 @@
 			(size 2 1.78)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.140449)
-			(net "/AUDIO/MIDI_IN_A")
+			(net "Net-(D1-K)")
 			(pintype "passive")
 			(uuid "45d4012f-1a01-4eee-b10d-84571320f0e1")
 		)
@@ -3618,7 +4440,7 @@
 			(size 2 1.78)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.140449)
-			(net "/AUDIO/MIDI_IN_K")
+			(net "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "472d696e-7975-43ff-aa53-ab0d1f77022b")
 		)
@@ -3680,7 +4502,7 @@
 		(property "Reference" "J2"
 			(at 6.35 3.5 90)
 			(layer "B.SilkS")
-			(uuid "b07fc9aa-3502-4eec-8bf5-e1d3bba59c0f")
+			(uuid "d2506af6-21d0-4f85-b344-b96a3ed45d39")
 			(effects
 				(font
 					(size 1 1)
@@ -3692,7 +4514,7 @@
 		(property "Value" "LINE IN R"
 			(at 6.35 -15 90)
 			(layer "B.Fab")
-			(uuid "28dd29c8-f297-4d2b-962d-501ff362e81f")
+			(uuid "1948de71-a333-4dad-a23c-218f830133f3")
 			(effects
 				(font
 					(size 1 1)
@@ -3706,7 +4528,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c717a19f-bfd8-45d8-be3f-6ccc5209cd9d")
+			(uuid "b0b4e274-98eb-4556-bf88-296e25e13bd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +4542,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dd4a21ba-2d98-44b7-86db-177ddafb05af")
+			(uuid "a71ad29c-93bc-4880-9dab-12f4dce6cd85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4866,7 @@
 		(property "Reference" "C2"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "3a0b0dd0-6dff-4ce5-8ceb-7d7e65524a43")
+			(uuid "0df17ca3-8249-461b-b663-5c3777c5ce6d")
 			(effects
 				(font
 					(size 1 1)
@@ -4056,7 +4878,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "90b70b2d-1dac-4371-9399-a999207e81c8")
+			(uuid "1b437c2d-2f45-4fac-b453-0fe57cd938ae")
 			(effects
 				(font
 					(size 1 1)
@@ -4065,11 +4887,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c640a6f4-6f43-4272-98a5-7ca581460a71")
+			(uuid "c734b294-957b-4413-8ce2-818c2891c517")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,11 +4899,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5ccd568b-e6d5-48d2-8dd7-eb87550ea185")
+			(uuid "c04a1d9a-0db1-4553-8a96-e9e5dfe38c1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,6 +4922,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/241ff81d-4857-4a6c-a935-9ef0e2076941")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -4163,7 +4995,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "CP_VNEG")
+			(net "Net-(U5-VNEG)")
+			(pintype "passive")
 			(uuid "64523607-f90b-4f59-ade8-ba4c441848ee")
 		)
 		(pad "2" smd roundrect
@@ -4172,6 +5005,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "2e388317-5dd3-4c94-a761-ad547f918251")
 		)
 		(embedded_fonts no)
@@ -4197,7 +5031,7 @@
 			(at 0 3.5 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "cb4086ef-846a-4964-ab05-87a0b62a9c1b")
+			(uuid "b0d29ed5-0860-42c8-ae48-b9cdebb98733")
 			(effects
 				(font
 					(size 1 1)
@@ -4210,7 +5044,7 @@
 			(at 0 -21 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "56cb6148-99d8-41a1-bc57-72f2539cec72")
+			(uuid "ac0b5b9f-3c6f-43b3-a45c-db1927a01fbf")
 			(effects
 				(font
 					(size 1 1)
@@ -4223,7 +5057,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1e84296c-3958-4337-9c7b-70900ab837d5")
+			(uuid "1a8ca9c0-983a-425b-8ac0-8a28cd9c8a79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +5069,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e444fcc7-2a64-4759-9533-0890eef9bb4e")
+			(uuid "8224b19d-f1db-468b-92a0-25863b170639")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,9 +5078,9 @@
 			)
 		)
 		(property ki_fp_filters "DIN*")
-		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/0b116e93-980a-453a-9d90-0b336f4b2a97")
-		(sheetname "/AUDIO/")
-		(sheetfile "audio.kicad_sch")
+		(path "/520a41cd-cc0e-4519-98f7-dd15ca01a195/c9bdb995-82fb-412c-b3ca-7200dfc05069")
+		(sheetname "/MIDI/")
+		(sheetfile "midi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4324,7 +5158,7 @@
 			(drill oval 1.5 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/AUDIO/MIDI_IN_K")
+			(net "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "df093a0a-3f37-48ca-81dd-c0e4ca870be1")
 		)
@@ -4334,7 +5168,7 @@
 			(drill oval 1.5 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/AUDIO/MIDI_IN_P5")
+			(net "Net-(J5-Pad5)")
 			(pintype "passive")
 			(uuid "fa9a3db0-95be-447d-a6bb-c9875edaa4f6")
 		)
@@ -4376,7 +5210,7 @@
 		(property "Reference" "C6"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "f6422a47-47e3-4fbc-b28c-d84c27b43682")
+			(uuid "1a843c65-552f-4acb-97b6-3d4f7b79ecdb")
 			(effects
 				(font
 					(size 1 1)
@@ -4388,7 +5222,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "df3f2523-9cf9-480b-8f29-254ba9e750dd")
+			(uuid "9efdbcc3-be33-45ee-8e86-751c3772652c")
 			(effects
 				(font
 					(size 1 1)
@@ -4397,11 +5231,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9188e469-fadf-4ed0-8c9d-58c54a2ec64b")
+			(uuid "8f2ce31a-df17-477e-b71a-0c62dd46324e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,11 +5243,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ac3e072f-7b7e-419d-bdcf-2883c658644d")
+			(uuid "ebc7318d-488f-42b0-a46b-45af60753246")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,6 +5266,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/47d46655-c963-4990-9959-2e176ecf49f6")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -4496,6 +5340,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "AUDIO_IN_L")
+			(pintype "passive")
 			(uuid "ea05f972-210c-4fca-b77e-892dc1b1df37")
 		)
 		(pad "2" smd roundrect
@@ -4503,7 +5348,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_IN_L")
+			(net "Net-(C6-Pad2)")
+			(pintype "passive")
 			(uuid "92c249d8-f727-422d-91bf-141628ba9dbd")
 		)
 		(embedded_fonts no)
@@ -4528,7 +5374,7 @@
 		(property "Reference" "C4"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "c3389b22-8392-438b-b249-30167bca1a4f")
+			(uuid "546fd34b-dd23-4b2e-856d-97ce5196e701")
 			(effects
 				(font
 					(size 1 1)
@@ -4540,7 +5386,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "7d762454-2c22-404a-9b7a-934f4e106824")
+			(uuid "f50a0a18-ec4a-4816-904a-2f224daf6171")
 			(effects
 				(font
 					(size 1 1)
@@ -4549,11 +5395,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "13b558f1-4021-46b2-a300-915df34c373d")
+			(uuid "85b1751f-8ff5-4cac-bb3c-c9dd49977afb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,11 +5407,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "de677d7a-7c42-4b22-9d6e-75a16f8e6086")
+			(uuid "0764f2d7-5020-460d-88fe-b818385f3d24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,6 +5430,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/ca8b1aa1-dddc-4db1-9d17-87475dca101f")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -4647,7 +5503,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "U7_LDO")
+			(net "GND")
+			(pintype "passive")
 			(uuid "3d85955e-ae78-4490-9110-d4900f3f0bf6")
 		)
 		(pad "2" smd roundrect
@@ -4655,7 +5512,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/AUDIO/U7_LDO")
+			(pintype "passive")
 			(uuid "5360f42d-8e6e-4f80-95f6-5168cbf8847f")
 		)
 		(embedded_fonts no)
@@ -4680,7 +5538,7 @@
 		(property "Reference" "D1"
 			(at 0 1.85 0)
 			(layer "B.SilkS")
-			(uuid "80abe081-8687-4ec1-806f-42ed34090e8a")
+			(uuid "14607075-ab06-494e-9cae-e69a78baa7c6")
 			(effects
 				(font
 					(size 1 1)
@@ -4692,7 +5550,7 @@
 		(property "Value" "1N4148"
 			(at 0.1 -1.9 0)
 			(layer "B.Fab")
-			(uuid "c91899e6-b4aa-420e-9b8b-7bb4dd3b2480")
+			(uuid "77da3230-7461-495a-8e23-0575f144b134")
 			(effects
 				(font
 					(size 1 1)
@@ -4706,7 +5564,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "24bd6123-b8b3-4a1e-acbf-02aa5d2bad5b")
+			(uuid "6e9dfa23-d46c-4dd5-be16-2397bcef5a71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +5578,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "24c96563-a753-4baf-8ebc-5e8b72ef5fe1")
+			(uuid "70cf18ce-4ac5-4faa-907a-ccd95b8c843d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,9 +5588,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/dbe93f34-9b34-4568-8b76-87f47c920ced")
-		(sheetname "/AUDIO/")
-		(sheetfile "audio.kicad_sch")
+		(path "/520a41cd-cc0e-4519-98f7-dd15ca01a195/73e2d9ed-394d-434a-9a63-e54655d47e42")
+		(sheetname "/MIDI/")
+		(sheetfile "midi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4928,7 +5786,7 @@
 			(size 0.6 0.45)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/AUDIO/MIDI_IN_A")
+			(net "Net-(D1-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "1d7893da-3543-4ac7-aa45-a68c017cae31")
@@ -4938,7 +5796,7 @@
 			(size 0.6 0.45)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/AUDIO/MIDI_IN_K")
+			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "af8d0433-7f64-4f53-875e-4e749457cd8a")
@@ -4965,7 +5823,7 @@
 		(property "Reference" "R4"
 			(at 0 1 0)
 			(layer "B.SilkS")
-			(uuid "87af77d2-2426-4d2b-8292-7484b12bd827")
+			(uuid "aafa6fb9-b076-477a-8d75-4b287b10b245")
 			(effects
 				(font
 					(size 1 1)
@@ -4977,7 +5835,7 @@
 		(property "Value" "4.7k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "bda84399-e87a-499c-9490-cbd09eda7fad")
+			(uuid "66d6a010-c641-4521-bb65-6daa0ed90084")
 			(effects
 				(font
 					(size 1 1)
@@ -4990,7 +5848,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b561edc0-e577-4197-813a-390021081a70")
+			(uuid "ddcedb49-2c8c-4458-82e4-67a1c50707ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5860,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5f37dd7b-21a6-4250-90cf-ea7c875e5101")
+			(uuid "b61c82e1-bfe9-4784-af72-b3996fe585d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,9 +5882,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/28209bce-e4d8-4098-9124-d98b162920d5")
-		(sheetname "/AUDIO/")
-		(sheetfile "audio.kicad_sch")
+		(path "/520a41cd-cc0e-4519-98f7-dd15ca01a195/6ee7936d-b541-453f-b662-2850d1c7f5c0")
+		(sheetname "/MIDI/")
+		(sheetfile "midi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5129,7 +5987,7 @@
 		(property "Reference" "U5"
 			(at 0 4.2 90)
 			(layer "B.SilkS")
-			(uuid "ccae2dfb-f6b6-448a-858c-c776d57cd20a")
+			(uuid "5b3aa7f7-dd29-4973-b336-edd3ffeae7df")
 			(effects
 				(font
 					(size 1 1)
@@ -5141,7 +5999,7 @@
 		(property "Value" "PCM5102"
 			(at -0.2995 -4.107 90)
 			(layer "B.Fab")
-			(uuid "a734326e-415b-4a67-8f79-96988ace70c7")
+			(uuid "286df685-b355-412c-b216-3b7ffe831d49")
 			(effects
 				(font
 					(size 1 1)
@@ -5154,7 +6012,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8fa26909-540e-46be-bb43-33951518b819")
+			(uuid "3ce9efd6-dd72-4d1f-aafe-d2c75678abf9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +6024,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3d1f78c5-60e9-4ad4-9e87-4e66abd38efe")
+			(uuid "aca74efd-8adc-425e-8fbd-d91f953fdd92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +6240,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-CPVDD-Pad1)")
+			(net "+3V3A")
 			(pinfunction "CPVDD_1")
 			(pintype "passive")
 			(uuid "9f56c831-11d6-45e3-96ec-7ecbb1b8680e")
@@ -5392,7 +6250,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-CAPP-Pad2)")
+			(net "Net-(U5-CAPP)")
 			(pinfunction "CAPP_2")
 			(pintype "passive")
 			(uuid "4bb50ae1-d267-47eb-ad6a-5b01fd2b1bf9")
@@ -5402,7 +6260,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-CPGND-Pad3)")
+			(net "GND")
 			(pinfunction "CPGND_3")
 			(pintype "power_in")
 			(uuid "539e9d2a-22b4-41da-9eef-a93af4864d1e")
@@ -5412,7 +6270,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-CAPM-Pad4)")
+			(net "Net-(U5-CAPM)")
 			(pinfunction "CAPM_4")
 			(pintype "passive")
 			(uuid "a783bc72-0862-41f4-bc24-9bc5a73d6777")
@@ -5422,7 +6280,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-VNEG-Pad5)")
+			(net "Net-(U5-VNEG)")
 			(pinfunction "VNEG_5")
 			(pintype "passive")
 			(uuid "cdbf3c26-907c-4991-be74-777e4c00e92f")
@@ -5432,7 +6290,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AUDIO_OUT_L")
+			(net "Net-(U5-OUTL)")
 			(pinfunction "OUTL_6")
 			(pintype "output")
 			(uuid "2103a04a-8f6f-4c5f-923b-f433d139d1e7")
@@ -5442,7 +6300,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AUDIO_OUT_R")
+			(net "Net-(U5-OUTR)")
 			(pinfunction "OUTR_7")
 			(pintype "output")
 			(uuid "5d512771-0632-4e13-a103-7d31023343ef")
@@ -5452,7 +6310,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-AVDD-Pad8)")
+			(net "+3V3A")
 			(pinfunction "AVDD_8")
 			(pintype "power_in")
 			(uuid "79765ace-1262-44a8-82b1-b5050a9bc8d8")
@@ -5462,7 +6320,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-AGND-Pad9)")
+			(net "GND")
 			(pinfunction "AGND_9")
 			(pintype "power_in")
 			(uuid "96e197a9-bf20-4a35-984e-9a666314f7a9")
@@ -5472,7 +6330,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-DEMP-Pad10)")
+			(net "GND")
 			(pinfunction "DEMP_10")
 			(pintype "input")
 			(uuid "a61a41b4-73fd-42b6-a907-76024332ed54")
@@ -5482,7 +6340,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-FLT-Pad11)")
+			(net "+3V3")
 			(pinfunction "FLT_11")
 			(pintype "input")
 			(uuid "909be7bd-9a65-42fe-b416-f868f351dbc8")
@@ -5492,7 +6350,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-SCK-Pad12)")
+			(net "Net-(U5-SCK)")
 			(pinfunction "SCK_12")
 			(pintype "input")
 			(uuid "7695cc50-9c52-4074-bf3c-1146ba8166d6")
@@ -5502,7 +6360,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-BCK-Pad13)")
+			(net "Net-(U5-BCK)")
 			(pinfunction "BCK_13")
 			(pintype "input")
 			(uuid "f12aa628-38ba-4cd6-b093-084bfe1239a3")
@@ -5512,7 +6370,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-DIN-Pad14)")
+			(net "Net-(U5-DIN)")
 			(pinfunction "DIN_14")
 			(pintype "input")
 			(uuid "c6441fc3-0359-4148-8108-1ea0ee5600fa")
@@ -5522,7 +6380,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-LRCK-Pad15)")
+			(net "Net-(U5-LRCK)")
 			(pinfunction "LRCK_15")
 			(pintype "input")
 			(uuid "fd09d955-5ea3-444d-8b19-5db838b8d632")
@@ -5532,7 +6390,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-FMT-Pad16)")
+			(net "GND")
 			(pinfunction "FMT_16")
 			(pintype "input")
 			(uuid "1936bc0e-ebcc-4b9e-86e7-ad3f1ca63650")
@@ -5542,7 +6400,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-XSMT-Pad17)")
+			(net "+3V3")
 			(pinfunction "XSMT_17")
 			(pintype "input")
 			(uuid "2ad8d42c-c028-4a7e-ac35-6f92396c40f7")
@@ -5552,7 +6410,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-LDOO-Pad18)")
+			(net "Net-(U5-LDOO)")
 			(pinfunction "LDOO_18")
 			(pintype "passive")
 			(uuid "acdac4ad-f4a3-495d-ac6a-05934b453dcd")
@@ -5562,7 +6420,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-DGND-Pad19)")
+			(net "GND")
 			(pinfunction "DGND_19")
 			(pintype "power_in")
 			(uuid "519e8504-29ad-4692-a1a8-d06fb1005f89")
@@ -5572,7 +6430,7 @@
 			(size 1.475 0.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-DVDD-Pad20)")
+			(net "+3V3")
 			(pinfunction "DVDD_20")
 			(pintype "power_in")
 			(uuid "8d13a623-91c4-4d88-8672-c961fbd381a2")
@@ -5598,7 +6456,7 @@
 		(property "Reference" "R11"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "aa3e71a1-a878-4b99-9ec3-f4128a859cfa")
+			(uuid "122cb4f2-bd9d-4082-8c6b-1b538e0afe96")
 			(effects
 				(font
 					(size 1 1)
@@ -5610,7 +6468,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "6f5e0fb7-d540-4b3b-b10b-a38a07741c60")
+			(uuid "c9fe9f21-4621-407c-b013-c6ef61b3529d")
 			(effects
 				(font
 					(size 1 1)
@@ -5619,11 +6477,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d65dff96-9a9f-483b-80ae-66bc082f4cac")
+			(uuid "c8dd6c70-f42e-4617-b0e5-de67d1258444")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,16 +6489,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "07599bc4-7a2d-4c9c-8a42-0728d873c98e")
+			(uuid "345c4ca4-012a-48a4-80b4-bab514690075")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/5cf9c81d-2adb-459f-9979-7b88a3a96c81")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -5651,6 +6519,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_BCK")
+			(pintype "passive")
 			(uuid "9650c622-2933-46c7-8bc4-6e5034b8dcc0")
 		)
 		(pad "2" smd roundrect
@@ -5658,7 +6527,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_BCK_F")
+			(net "Net-(U5-BCK)")
+			(pintype "passive")
 			(uuid "12d7bbb0-ffd0-4f6a-85bf-a582c96eea4d")
 		)
 		(embedded_fonts no)
@@ -5671,7 +6541,7 @@
 		(property "Reference" "C14"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "3c255999-d433-4323-9f38-864af0abaf7c")
+			(uuid "c131617a-9aa3-487b-8010-448711862912")
 			(effects
 				(font
 					(size 1 1)
@@ -5683,7 +6553,7 @@
 		(property "Value" "100n"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "4acdc2d3-934d-40be-8858-9299f4358fb4")
+			(uuid "460a423f-379b-4b3c-99a5-18b8f2611291")
 			(effects
 				(font
 					(size 1 1)
@@ -5692,11 +6562,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fd779edb-f2fc-445e-9e72-02079b66026c")
+			(uuid "a9c1093c-41ff-4d2c-8c94-07d24431308a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,16 +6574,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "10df5032-dd35-424b-91ea-53313136b029")
+			(uuid "28b16a14-5ec9-4f77-a94a-ad2ff6d3a4ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/778f490a-9178-41e0-a394-370b8ee6d1bd")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -5724,6 +6604,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3A")
+			(pintype "passive")
 			(uuid "516433e4-4e64-40a9-9780-8aa0e5b67deb")
 		)
 		(pad "2" smd roundrect
@@ -5732,6 +6613,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "b894d29a-0fdb-4380-be54-516f1ec3c2fa")
 		)
 		(embedded_fonts no)
@@ -5744,7 +6626,7 @@
 		(property "Reference" "C15"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "e0c525fe-f1c3-4d2c-b46f-87540d177331")
+			(uuid "e19d0c21-c699-486f-9d62-2d7b24a28e03")
 			(effects
 				(font
 					(size 1 1)
@@ -5756,7 +6638,7 @@
 		(property "Value" "10u"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "f7fb769c-6510-411c-a7b2-5a7147160e5a")
+			(uuid "1730ab37-cecf-40ce-9cba-d002ec6b5cbc")
 			(effects
 				(font
 					(size 1 1)
@@ -5765,11 +6647,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "37244d39-3b68-4f5d-890c-40bd08d33366")
+			(uuid "f62d6fb3-7de8-4b6d-ae3f-7aeac116289a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,16 +6659,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "af768fc1-6d86-48a0-a7a8-edd244d03ed3")
+			(uuid "e4e1716e-8681-4966-ac67-cbafc6cb27c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/e400d048-71dc-4185-8013-a51c9c566480")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -5797,6 +6689,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3A")
+			(pintype "passive")
 			(uuid "384b6b40-ecf1-46be-93aa-a444b464f3d8")
 		)
 		(pad "2" smd roundrect
@@ -5805,6 +6698,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "52a05c78-99ee-4633-91e1-3b8ac070f2fe")
 		)
 		(embedded_fonts no)
@@ -5818,7 +6712,7 @@
 		(property "Reference" "C1"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "2545731e-5916-4c20-a538-daa268b370a6")
+			(uuid "d004baec-24df-411c-b35e-1f5651618225")
 			(effects
 				(font
 					(size 1 1)
@@ -5830,7 +6724,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "21b1928b-f364-4d50-9d54-7c4dc1593b34")
+			(uuid "76d6dbcd-38d8-4475-8d29-c6125486759d")
 			(effects
 				(font
 					(size 1 1)
@@ -5839,11 +6733,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b4e26cf2-c3b6-4664-af5d-12f57b206230")
+			(uuid "fe23abaf-5105-4f36-babe-d39e4662b3e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,11 +6745,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5b943d4b-e5f6-4019-92ee-8c0f4a8362c0")
+			(uuid "c7303294-c277-498a-8012-26d60fc6aee7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,6 +6768,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/15fdaaf9-5108-4858-a5ef-627930a5ae34")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -5937,7 +6841,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "CP_APP")
+			(net "Net-(U5-CAPP)")
+			(pintype "passive")
 			(uuid "b49fbf9f-6f1f-4f44-8d98-ea508e2e8ddb")
 		)
 		(pad "2" smd roundrect
@@ -5945,7 +6850,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "CP_AM")
+			(net "Net-(U5-CAPM)")
+			(pintype "passive")
 			(uuid "27fcafa6-fb81-46cf-a3ad-a02efe5a0121")
 		)
 		(embedded_fonts no)
@@ -5970,7 +6876,7 @@
 		(property "Reference" "U1"
 			(at 12.7 2.1 0)
 			(layer "B.SilkS")
-			(uuid "c8227f23-f85b-4d5e-b1ca-65f8823f3974")
+			(uuid "4521ddd4-528d-4dd4-b6c2-ff4d4aa3e73d")
 			(effects
 				(font
 					(size 1 1)
@@ -5979,10 +6885,10 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ESP32-S3-DevKitC-1-N16R8-SMD"
+		(property "Value" "ESP32-S3-DevKitC"
 			(at 12.7 -29.46128 90)
 			(layer "B.SilkS")
-			(uuid "0ab80b09-6a1d-4c02-8228-6d216fd37b48")
+			(uuid "577d72f0-e7d7-4fb3-ba0d-d08239e8e9c4")
 			(effects
 				(font
 					(size 1 1)
@@ -5995,7 +6901,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eb381121-5362-4aa9-8d7e-efd513e06def")
+			(uuid "fe5328aa-9112-44dc-b8f7-ac4977b8c95a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,16 +6909,29 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32-S3-DevKitC"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "52f62618-57f4-4b87-9fca-57fa41a3f8a0")
+			(uuid "493f8c1a-61b7-4339-a80d-7e54bd200049")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(path "/d88afb29-f619-41d9-b2c7-39b5a79080d1/3981ef57-09eb-410e-b78f-f60a7af9e7bd")
+		(sheetname "/MCU/")
+		(sheetfile "mcu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "8" "9" "36" "37" "38" "39" "21" "23" "22" "24" "44" "1" "2"
+					"43" "42" "26" "25" "31" "41" "40" "13" "4" "5" "6" "7" "12" "15" "16"
+					"17" "18" "19" "20" "10" "11" "27" "32" "33" "34" "35" "30" "14" "28"
+					"29"
+				)
 			)
 		)
 		(attr smd)
@@ -6717,6 +7636,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "3V3_1")
+			(pintype "passive")
 			(uuid "c853012e-700f-4da9-9452-f9fe0ab21c4a")
 		)
 		(pad "2" smd roundrect
@@ -6725,6 +7646,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "3V3_2")
+			(pintype "power_in")
 			(uuid "d1d01c2e-a6b6-404d-9fdd-e80e028ca1be")
 		)
 		(pad "3" smd roundrect
@@ -6733,6 +7656,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-CHIP_PU-Pad3)")
+			(pinfunction "CHIP_PU_3")
+			(pintype "input")
 			(uuid "ccc491e7-9251-422d-80e0-7ad308cc5972")
 		)
 		(pad "4" smd roundrect
@@ -6741,6 +7666,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_LRCK")
+			(pinfunction "GPIO4/ADC1_CH3_4")
+			(pintype "bidirectional")
 			(uuid "e1bf0850-7ec6-401b-b7d2-ca77a5ee24f2")
 		)
 		(pad "5" smd roundrect
@@ -6749,6 +7676,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_DIN")
+			(pinfunction "GPIO5/ADC1_CH4_5")
+			(pintype "bidirectional")
 			(uuid "739a5348-0378-48de-8d71-542a3da55545")
 		)
 		(pad "6" smd roundrect
@@ -6757,6 +7686,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_BCK")
+			(pinfunction "GPIO6/ADC1_CH5_6")
+			(pintype "bidirectional")
 			(uuid "b0c6867f-27f0-4d8b-8de1-ac0c8b68d518")
 		)
 		(pad "7" smd roundrect
@@ -6765,6 +7696,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_MCLK")
+			(pinfunction "GPIO7/ADC1_CH6_7")
+			(pintype "bidirectional")
 			(uuid "95426ea0-b124-4683-83d4-dd9a448d6175")
 		)
 		(pad "8" smd roundrect
@@ -6773,6 +7706,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "BTN_3")
+			(pinfunction "GPIO15/ADC2_CH4/32K_P_8")
+			(pintype "bidirectional")
 			(uuid "56b22375-2da3-43ef-b7d3-f0b423ba7f3b")
 		)
 		(pad "9" smd roundrect
@@ -6781,6 +7716,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "BTN_4")
+			(pinfunction "GPIO16/ADC2_CH5/32K_N_9")
+			(pintype "bidirectional")
 			(uuid "ec3a1345-f14d-407f-b544-d0b28d52f485")
 		)
 		(pad "10" smd roundrect
@@ -6789,6 +7726,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "MIDI_RX")
+			(pinfunction "GPIO17/ADC2_CH6_10")
+			(pintype "bidirectional")
 			(uuid "13630c47-b459-4961-a710-9cf7d93cdb56")
 		)
 		(pad "11" smd roundrect
@@ -6797,6 +7736,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_ADC_DOUT")
+			(pinfunction "GPIO18/ADC2_CH7_11")
+			(pintype "bidirectional")
 			(uuid "12e1753d-bf94-4be5-88d4-b5c37757ca74")
 		)
 		(pad "12" smd roundrect
@@ -6805,6 +7746,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "POT_4")
+			(pinfunction "GPIO8/ADC1_CH7_12")
+			(pintype "bidirectional")
 			(uuid "986568c5-5610-4782-91a3-f8e10ff8db02")
 		)
 		(pad "13" smd roundrect
@@ -6813,6 +7756,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "POT_3")
+			(pinfunction "GPIO3/ADC1_CH2_13")
+			(pintype "bidirectional")
 			(uuid "c04e69df-fbc5-4c87-9f99-51cc8a8fce4f")
 		)
 		(pad "14" smd roundrect
@@ -6821,6 +7766,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO46-Pad14)")
+			(pinfunction "GPIO46_14")
+			(pintype "bidirectional")
 			(uuid "6b14c8db-d2bb-464d-b050-6422db4e6acb")
 		)
 		(pad "15" smd roundrect
@@ -6829,6 +7776,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "OLED_SCK")
+			(pinfunction "GPIO9/ADC1_CH8_15")
+			(pintype "bidirectional")
 			(uuid "b0374586-2bc8-434f-9bcb-b3f54b4a89cc")
 		)
 		(pad "16" smd roundrect
@@ -6837,6 +7786,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "OLED_SDA")
+			(pinfunction "GPIO10/ADC1_CH9_16")
+			(pintype "bidirectional")
 			(uuid "d3bc05fd-f3fd-477a-8f87-ab5e668d627a")
 		)
 		(pad "17" smd roundrect
@@ -6845,6 +7796,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "OLED_RES")
+			(pinfunction "GPIO11/ADC2_CH0_17")
+			(pintype "bidirectional")
 			(uuid "44321113-af3a-4d9e-bf31-d2770c836e5e")
 		)
 		(pad "18" smd roundrect
@@ -6853,6 +7806,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "OLED_DC")
+			(pinfunction "GPIO12/ADC2_CH1_18")
+			(pintype "bidirectional")
 			(uuid "4a443588-6a1d-408e-a939-f58fed09f5ca")
 		)
 		(pad "19" smd roundrect
@@ -6861,6 +7816,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "OLED_CS")
+			(pinfunction "GPIO13/ADC2_CH2_19")
+			(pintype "bidirectional")
 			(uuid "aa0681ca-f686-4a61-a1ef-4dec48518b40")
 		)
 		(pad "20" smd roundrect
@@ -6868,7 +7825,9 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-GPIO14{slash}ADC2_CH3-Pad20)")
+			(net "SD_SCK")
+			(pinfunction "GPIO14/ADC2_CH3_20")
+			(pintype "bidirectional")
 			(uuid "eee343b0-95fe-4edf-95bc-253d7c264814")
 		)
 		(pad "21" smd roundrect
@@ -6877,6 +7836,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pinfunction "5V_21")
+			(pintype "power_in")
 			(uuid "682e5757-74d8-4566-941f-5c2dc4b08861")
 		)
 		(pad "22" smd roundrect
@@ -6885,6 +7846,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_22")
+			(pintype "passive")
 			(uuid "0a358951-dc0f-455f-b40e-a448a2d62296")
 		)
 		(pad "23" smd roundrect
@@ -6893,6 +7856,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_23")
+			(pintype "passive")
 			(uuid "2ce747d2-6867-415e-ad62-07d955f55c7d")
 		)
 		(pad "24" smd roundrect
@@ -6901,6 +7866,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_24")
+			(pintype "passive")
 			(uuid "9c465851-4b43-4b71-8924-73a99f165718")
 		)
 		(pad "25" smd roundrect
@@ -6909,6 +7876,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO19{slash}USB_D--Pad25)")
+			(pinfunction "GPIO19/USB_D-_25")
+			(pintype "bidirectional")
 			(uuid "550f05da-7829-4e54-8ee0-6bdeaafcbd8a")
 		)
 		(pad "26" smd roundrect
@@ -6917,6 +7886,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO20{slash}USB_D+-Pad26)")
+			(pinfunction "GPIO20/USB_D+_26")
+			(pintype "bidirectional")
 			(uuid "78257f4a-280b-40c6-bfcd-1a927e7af789")
 		)
 		(pad "27" smd roundrect
@@ -6924,7 +7895,9 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-GPIO21-Pad27)")
+			(net "SD_MOSI")
+			(pinfunction "GPIO21_27")
+			(pintype "bidirectional")
 			(uuid "cb770979-c6fc-45d5-9ee2-fef7c1168fba")
 		)
 		(pad "28" smd roundrect
@@ -6932,7 +7905,9 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-GPIO47-Pad28)")
+			(net "SD_MISO")
+			(pinfunction "GPIO47_28")
+			(pintype "bidirectional")
 			(uuid "2e3350ad-e61a-42d1-857c-c6b31e00a397")
 		)
 		(pad "29" smd roundrect
@@ -6941,6 +7916,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO48-Pad29)")
+			(pinfunction "GPIO48_29")
+			(pintype "bidirectional")
 			(uuid "d0dae0f9-8a88-4ef1-9511-18529adba88a")
 		)
 		(pad "30" smd roundrect
@@ -6949,6 +7926,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO45-Pad30)")
+			(pinfunction "GPIO45_30")
+			(pintype "bidirectional")
 			(uuid "767d6240-4ee5-48a7-98b3-5cb707b449cb")
 		)
 		(pad "31" smd roundrect
@@ -6957,6 +7936,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO0-Pad31)")
+			(pinfunction "GPIO0_31")
+			(pintype "bidirectional")
 			(uuid "a60f7623-e638-4072-8099-ba86a12ecc89")
 		)
 		(pad "32" smd roundrect
@@ -6964,7 +7945,9 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-GPIO35-Pad32)")
+			(net "SD_CS")
+			(pinfunction "GPIO35_32")
+			(pintype "bidirectional")
 			(uuid "f2d85f0b-cd4c-4e62-a8f6-7433cb5a7c23")
 		)
 		(pad "33" smd roundrect
@@ -6973,6 +7956,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO36-Pad33)")
+			(pinfunction "GPIO36_33")
+			(pintype "bidirectional")
 			(uuid "25fa8036-8b5e-4bc0-b4cd-f4c726cf3d62")
 		)
 		(pad "34" smd roundrect
@@ -6981,6 +7966,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO37-Pad34)")
+			(pinfunction "GPIO37_34")
+			(pintype "bidirectional")
 			(uuid "c40456a7-b09c-40b8-b35f-246e0f09c1f0")
 		)
 		(pad "35" smd roundrect
@@ -6989,6 +7976,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "ENC_CLK")
+			(pinfunction "GPIO38_35")
+			(pintype "bidirectional")
 			(uuid "6f6d496b-6b03-4b31-be82-29446a572c31")
 		)
 		(pad "36" smd roundrect
@@ -6997,6 +7986,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "ENC_DT")
+			(pinfunction "GPIO39/MTCK_36")
+			(pintype "bidirectional")
 			(uuid "c120d961-bf26-4a15-912e-9d7e57ef4081")
 		)
 		(pad "37" smd roundrect
@@ -7005,6 +7996,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "ENC_SW")
+			(pinfunction "GPIO40/MTDO_37")
+			(pintype "bidirectional")
 			(uuid "7231f57f-8d8d-419c-a764-9c9a9a6ebbda")
 		)
 		(pad "38" smd roundrect
@@ -7013,6 +8006,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "BTN_1")
+			(pinfunction "GPIO41/MTDI_38")
+			(pintype "bidirectional")
 			(uuid "c9b89280-b75e-41b6-9c3d-8ff6ee2b8db6")
 		)
 		(pad "39" smd roundrect
@@ -7021,6 +8016,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "BTN_2")
+			(pinfunction "GPIO42/MTMS_39")
+			(pintype "bidirectional")
 			(uuid "3eb34af4-da13-4e59-8401-9125bfa36c5b")
 		)
 		(pad "40" smd roundrect
@@ -7029,6 +8026,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "POT_2")
+			(pinfunction "GPIO2/ADC1_CH1_40")
+			(pintype "bidirectional")
 			(uuid "84bb6cb8-2f9e-4287-adf5-04288da39e8d")
 		)
 		(pad "41" smd roundrect
@@ -7037,6 +8036,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "POT_1")
+			(pinfunction "GPIO1/ADC1_CH0_41")
+			(pintype "bidirectional")
 			(uuid "b7e8be93-a8c9-4176-8ef1-ddcd285b23cb")
 		)
 		(pad "42" smd roundrect
@@ -7045,6 +8046,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO44{slash}U0RXD-Pad42)")
+			(pinfunction "GPIO44/U0RXD_42")
+			(pintype "bidirectional")
 			(uuid "84580140-034f-4289-8e39-fb2aa8629d7c")
 		)
 		(pad "43" smd roundrect
@@ -7053,6 +8056,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO43{slash}U0TXD-Pad43)")
+			(pinfunction "GPIO43/U0TXD_43")
+			(pintype "bidirectional")
 			(uuid "adb9fa15-0d86-4be7-9faf-5c0be8715635")
 		)
 		(pad "44" smd roundrect
@@ -7061,6 +8066,8 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_44")
+			(pintype "power_in")
 			(uuid "04b3d92e-122f-4322-a4b6-c536a6e4dae8")
 		)
 		(embedded_fonts no)
@@ -7085,7 +8092,7 @@
 		(property "Reference" "C5"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "5347e496-51e1-4788-9c9d-14899b98be5b")
+			(uuid "6245eb4b-f71c-45d8-a27c-4a32ae7afee8")
 			(effects
 				(font
 					(size 1 1)
@@ -7097,7 +8104,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "82de2a8e-13b0-46e4-9c09-b268c0fb52d9")
+			(uuid "7bb18fdb-911b-4762-977e-9e5119307b24")
 			(effects
 				(font
 					(size 1 1)
@@ -7106,11 +8113,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97a9fc35-d55f-4e2c-99a0-1fc5cbdf4419")
+			(uuid "c0681726-9d1b-4f68-8d91-fda3fe5f83b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,11 +8125,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8d36e6d4-9a27-4b72-b46d-3f7ec3fe46c4")
+			(uuid "efd3ca0f-8dc6-450b-ac9f-1411573da20f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,6 +8148,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/de92a754-1d95-4d93-8239-9db9c2f0c3d9")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -7204,7 +8221,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "U7_VREF")
+			(net "Net-(U7-VREF)")
+			(pintype "passive")
 			(uuid "b631b154-08b5-4d7c-9e65-c7e8a6395c2b")
 		)
 		(pad "2" smd roundrect
@@ -7213,6 +8231,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "3121b2e2-7e25-41d9-9b8a-8a9efb77cac2")
 		)
 		(embedded_fonts no)
@@ -7236,7 +8255,7 @@
 		(property "Reference" "R13"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "2ff4c302-d6f0-45b0-94d4-c95d76799f77")
+			(uuid "783f5d91-3232-436c-aee6-51379ed24387")
 			(effects
 				(font
 					(size 1 1)
@@ -7248,7 +8267,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "8e78e9c6-a3e8-4daf-afae-85400b7939f5")
+			(uuid "1a5a39d9-b7ea-45a2-a357-7e3cf28a6703")
 			(effects
 				(font
 					(size 1 1)
@@ -7257,11 +8276,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "47ef62ce-6d2b-48f9-aaf1-b0b36fefd29a")
+			(uuid "1e1ace0c-b309-46ca-9c7e-01bb52de9afa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,16 +8288,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "586145e4-3502-4ca7-bce0-14537a40f135")
+			(uuid "3de3c86d-5b54-490b-96c1-e1040c746efb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/187f982a-b34b-438a-a105-777599885ab4")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -7288,7 +8317,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_BCK")
+			(net "Net-(U7-BCK)")
+			(pintype "passive")
 			(uuid "f4c3622d-8cdf-4fcc-807e-8d36e25c6e1d")
 		)
 		(pad "2" smd roundrect
@@ -7296,7 +8326,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_BCK_F")
+			(net "I2S_BCK")
+			(pintype "passive")
 			(uuid "c2d3a3cf-0684-4a00-9b09-e688730af820")
 		)
 		(embedded_fonts no)
@@ -7310,7 +8341,7 @@
 		(property "Reference" "U7"
 			(at 0 4.85 90)
 			(layer "B.SilkS")
-			(uuid "21ab2a09-16a2-488a-9196-f5012abeb100")
+			(uuid "2db60aa1-abb1-4b25-b9aa-6351cf1c875c")
 			(effects
 				(font
 					(size 1 1)
@@ -7322,7 +8353,7 @@
 		(property "Value" "PCM1860DBT"
 			(at 0 -4.85 90)
 			(layer "B.Fab")
-			(uuid "e9b3e4cb-0b16-4cfa-bbcc-405890be1c19")
+			(uuid "c89daa58-e400-4a39-9acb-8b24bc2dfa2f")
 			(effects
 				(font
 					(size 1 1)
@@ -7335,7 +8366,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b3132c10-8536-4cee-a48d-7f97e900c01e")
+			(uuid "5c6ef9cf-f890-4dbf-9e0f-f2cd2d4126b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +8378,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "46079c1d-3a11-4d21-be4a-2f5e05981ec2")
+			(uuid "c80dc1f3-a771-4fc9-b4e6-82b73df7ad1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +8637,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-VINL2{slash}VIN1M-Pad1)")
 			(pinfunction "VINL2/VIN1M_1")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "cb4bb4b6-7dae-43bd-914a-69ecf988be2e")
 		)
 		(pad "2" smd roundrect
@@ -7616,7 +8647,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-VINR2{slash}VIN2M-Pad2)")
 			(pinfunction "VINR2/VIN2M_2")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "82fc04e5-c803-4129-9f8c-676e5b4f51c4")
 		)
 		(pad "3" smd roundrect
@@ -7624,7 +8655,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AUDIO_IN_L")
+			(net "Net-(U7-VINL1{slash}VIN1P)")
 			(pinfunction "VINL1/VIN1P_3")
 			(pintype "input")
 			(uuid "ba0b9e20-36ae-4d3d-815e-bb907d590c9f")
@@ -7634,7 +8665,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AUDIO_IN_R")
+			(net "Net-(U7-VINR1{slash}VIN2P)")
 			(pinfunction "VINR1/VIN2P_4")
 			(pintype "input")
 			(uuid "ec95a43c-e30d-47ae-9cb6-2fe40a92fe47")
@@ -7646,7 +8677,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-Mic_Bias-Pad5)")
 			(pinfunction "Mic_Bias_5")
-			(pintype "power_out")
+			(pintype "power_out+no_connect")
 			(uuid "7c6d057a-9d28-42e1-9cf3-e092d5ab1c9e")
 		)
 		(pad "6" smd roundrect
@@ -7654,7 +8685,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-VREF-Pad6)")
+			(net "Net-(U7-VREF)")
 			(pinfunction "VREF_6")
 			(pintype "power_out")
 			(uuid "b7a024f8-4ec3-4afc-9238-615f355e74d3")
@@ -7664,7 +8695,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-AGND-Pad7)")
+			(net "GND")
 			(pinfunction "AGND_7")
 			(pintype "power_in")
 			(uuid "eb315f89-4838-401c-a9ed-2627bec5931f")
@@ -7674,7 +8705,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-AVDD-Pad8)")
+			(net "+3V3A")
 			(pinfunction "AVDD_8")
 			(pintype "power_in")
 			(uuid "a875ee17-61ff-42da-a37b-0fae8a94259d")
@@ -7686,7 +8717,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-XO-Pad9)")
 			(pinfunction "XO_9")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "010c6c3a-4453-4d80-aea1-8248ab0dcc94")
 		)
 		(pad "10" smd roundrect
@@ -7696,7 +8727,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-XI-Pad10)")
 			(pinfunction "XI_10")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "5221cc23-f8fb-4559-8859-62e2c30fb29c")
 		)
 		(pad "11" smd roundrect
@@ -7704,7 +8735,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-LDO-Pad11)")
+			(net "/AUDIO/U7_LDO")
 			(pinfunction "LDO_11")
 			(pintype "power_in")
 			(uuid "d44c030f-4d1f-4227-bcee-976d23b90d15")
@@ -7714,7 +8745,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-DGND-Pad12)")
+			(net "GND")
 			(pinfunction "DGND_12")
 			(pintype "power_in")
 			(uuid "7a1420fe-a615-4599-887a-90afbac59163")
@@ -7724,7 +8755,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-DVDD-Pad13)")
+			(net "+3V3")
 			(pinfunction "DVDD_13")
 			(pintype "power_in")
 			(uuid "7586b036-6b54-42ce-b758-ce7f78070f4e")
@@ -7734,7 +8765,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-IOVDD-Pad14)")
+			(net "+3V3")
 			(pinfunction "IOVDD_14")
 			(pintype "power_in")
 			(uuid "7f6243f7-0e4e-47f0-a4c6-3649858fe320")
@@ -7744,7 +8775,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-SCKI-Pad15)")
+			(net "Net-(U7-SCKI)")
 			(pinfunction "SCKI_15")
 			(pintype "input")
 			(uuid "bc3dc0c5-8226-4e19-8083-6b6b78834215")
@@ -7754,7 +8785,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-LRCK-Pad16)")
+			(net "Net-(U7-LRCK)")
 			(pinfunction "LRCK_16")
 			(pintype "bidirectional")
 			(uuid "8e5f90a9-a8d5-465c-bb83-b8f43479977f")
@@ -7764,7 +8795,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-BCK-Pad17)")
+			(net "Net-(U7-BCK)")
 			(pinfunction "BCK_17")
 			(pintype "bidirectional")
 			(uuid "9825c5f0-2ab8-4277-984a-db8ebd9058b0")
@@ -7774,7 +8805,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-DOUT-Pad18)")
+			(net "Net-(U7-DOUT)")
 			(pinfunction "DOUT_18")
 			(pintype "output")
 			(uuid "11846631-c1c9-48ed-9348-7889d5844bff")
@@ -7786,7 +8817,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-INT-Pad19)")
 			(pinfunction "INT_19")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "417a240d-dd5d-4874-981c-8cf449701982")
 		)
 		(pad "20" smd roundrect
@@ -7794,7 +8825,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD6-Pad20)")
+			(net "GND")
 			(pinfunction "MD6_20")
 			(pintype "input")
 			(uuid "1b21e21f-11d4-4329-8c66-b845af26b096")
@@ -7804,7 +8835,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD5-Pad21)")
+			(net "GND")
 			(pinfunction "MD5_21")
 			(pintype "input")
 			(uuid "df74cc21-41c8-4f7d-8fe8-17770ac3085d")
@@ -7814,7 +8845,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD4-Pad22)")
+			(net "GND")
 			(pinfunction "MD4_22")
 			(pintype "input")
 			(uuid "aeaf71dd-195a-45ef-8657-cc44cc25081b")
@@ -7824,7 +8855,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD2-Pad23)")
+			(net "GND")
 			(pinfunction "MD2_23")
 			(pintype "input")
 			(uuid "67dda610-2ff8-46d9-bdcd-df2d467b2d97")
@@ -7834,7 +8865,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD3-Pad24)")
+			(net "GND")
 			(pinfunction "MD3_24")
 			(pintype "input")
 			(uuid "dab73e7f-990f-4c7f-afa7-250e7e24003a")
@@ -7844,7 +8875,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD1-Pad25)")
+			(net "GND")
 			(pinfunction "MD1_25")
 			(pintype "input")
 			(uuid "7674dbf3-950f-4af9-b284-f2cdbe2a09eb")
@@ -7854,7 +8885,7 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U7-MD0-Pad26)")
+			(net "GND")
 			(pinfunction "MD0_26")
 			(pintype "input")
 			(uuid "c9f393f0-44f8-4286-970f-29b21d2536d5")
@@ -7866,7 +8897,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-VINL4{slash}VIN4M-Pad27)")
 			(pinfunction "VINL4/VIN4M_27")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "37fc8470-ed02-4513-b74d-4788a39a9739")
 		)
 		(pad "28" smd roundrect
@@ -7876,7 +8907,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-VINR4{slash}VIN3M-Pad28)")
 			(pinfunction "VINR4/VIN3M_28")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "89494938-361d-4c94-810f-725634e70fc6")
 		)
 		(pad "29" smd roundrect
@@ -7886,7 +8917,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-VINL3{slash}VIN4P-Pad29)")
 			(pinfunction "VINL3/VIN4P_29")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "8615deed-5c52-4769-9803-9ef6f0f4cb5d")
 		)
 		(pad "30" smd roundrect
@@ -7896,7 +8927,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U7-VINR3{slash}VIN3P-Pad30)")
 			(pinfunction "VINR3/VIN3P_30")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "fbaba496-de8b-4046-8e7d-adb8a6c008ec")
 		)
 		(embedded_fonts no)
@@ -7921,7 +8952,7 @@
 		(property "Reference" "R1"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "b75a626d-9df2-4671-a424-680dc2d02368")
+			(uuid "3a40225e-55bb-477d-93ec-35b3b90eaf8a")
 			(effects
 				(font
 					(size 1 1)
@@ -7933,7 +8964,7 @@
 		(property "Value" "220"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "432e3549-f9bf-4e8e-81da-df68bd87bb16")
+			(uuid "097609cf-a511-4c9f-9a29-3a9a36c66688")
 			(effects
 				(font
 					(size 1 1)
@@ -7946,7 +8977,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "68f1831b-71ca-4031-b03e-7a996ecb9320")
+			(uuid "779f860c-7a0b-4736-ab49-4e194d686608")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,7 +8989,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5e53e402-0509-4e05-a5d7-061baf4d3fe5")
+			(uuid "b3b41645-7f06-468e-bcab-a10e07350dd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,9 +9011,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/10f30076-3a0f-431e-9e37-3787de1391ee")
-		(sheetname "/AUDIO/")
-		(sheetfile "audio.kicad_sch")
+		(path "/520a41cd-cc0e-4519-98f7-dd15ca01a195/4ec158f5-d2b3-4a64-b538-64fb31763e81")
+		(sheetname "/MIDI/")
+		(sheetfile "midi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8050,7 +9081,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/AUDIO/MIDI_IN_P5")
+			(net "Net-(J5-Pad5)")
 			(pintype "passive")
 			(uuid "8ab29f59-2968-4f53-bad6-4a1a3c0d36c5")
 		)
@@ -8059,7 +9090,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/AUDIO/MIDI_IN_A")
+			(net "Net-(D1-K)")
 			(pintype "passive")
 			(uuid "d1a901d4-aea5-4b75-8f32-e138dd94d8bd")
 		)
@@ -8085,7 +9116,7 @@
 		(property "Reference" "J4"
 			(at 6.35 3.5 90)
 			(layer "B.SilkS")
-			(uuid "583b0141-07e2-4148-ac8c-99a7274ed258")
+			(uuid "316d983d-ae4f-4bde-a68b-1d8c338335b9")
 			(effects
 				(font
 					(size 1 1)
@@ -8097,7 +9128,7 @@
 		(property "Value" "LINE OUT R"
 			(at 6.35 -15 90)
 			(layer "B.Fab")
-			(uuid "d6b04ad4-9696-4b9c-87b1-1de5f2bc5f8b")
+			(uuid "663f737b-42cd-4be9-b979-d515b4277dd9")
 			(effects
 				(font
 					(size 1 1)
@@ -8111,7 +9142,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "115fde15-3627-4e22-b097-10e8b00e46fb")
+			(uuid "01a35a43-18e2-459d-9495-212ad19fa367")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +9156,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f2854a80-1586-4bf3-b524-4ee9941ab567")
+			(uuid "35e9e3ee-d2c3-44da-9014-f19c88656468")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +9415,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-PadR)")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "69babf04-3460-4ac6-9364-3bd1a64a1648")
 		)
 		(pad "RN" thru_hole circle
@@ -8424,7 +9455,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-PadTN)")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "3b834342-01e6-4865-9ae0-caf8572a44a4")
 		)
 		(embedded_fonts no)
@@ -8448,7 +9479,7 @@
 		(property "Reference" "R6"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "9890c5ef-1aec-4f75-9000-7ec729ec6bcb")
+			(uuid "fd898b20-e92e-4a49-86b2-9c8da3b3cdb1")
 			(effects
 				(font
 					(size 1 1)
@@ -8460,7 +9491,7 @@
 		(property "Value" "1k"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "232e87ad-88d5-4baa-a3b5-b37f86ea1fda")
+			(uuid "3a99a137-8d96-44f4-a6c5-e30820f9668e")
 			(effects
 				(font
 					(size 1 1)
@@ -8469,11 +9500,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b828aeea-b216-4acd-83c6-b39317fbe099")
+			(uuid "165d1442-0129-458d-ba27-c36522eab510")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,16 +9512,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "77e87ce2-4012-4265-a32d-0a7b7a9446e2")
+			(uuid "2ccaef5f-04c1-4f11-9877-3bcbdf74103f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/173070f3-a3cc-4095-8e76-05ad20c6efed")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8500,7 +9541,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_FIL_R")
+			(net "Net-(C7-Pad2)")
+			(pintype "passive")
 			(uuid "35d19ec4-984e-46d0-9c84-a17050b1871c")
 		)
 		(pad "2" smd roundrect
@@ -8508,7 +9550,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_IN_R")
+			(net "Net-(U7-VINR1{slash}VIN2P)")
+			(pintype "passive")
 			(uuid "26f1450a-5e89-4a62-99f8-2b85be6a9853")
 		)
 		(embedded_fonts no)
@@ -8521,7 +9564,7 @@
 		(property "Reference" "R8"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "1c87cb5f-51df-4082-9cd2-bd2871bec834")
+			(uuid "772610ac-fe22-4c1a-b5da-b298cde0a080")
 			(effects
 				(font
 					(size 1 1)
@@ -8533,7 +9576,7 @@
 		(property "Value" "470R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "e46c3d28-3300-4b1e-a8f0-acd52a003085")
+			(uuid "05764d3c-a7db-4213-994d-e94c739902cc")
 			(effects
 				(font
 					(size 1 1)
@@ -8542,11 +9585,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2068b191-cd27-453a-8e37-662df17a7c30")
+			(uuid "9bfbc5d5-85f6-4225-bebb-08ecac18e4c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,16 +9597,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "91395bfc-8464-4b50-9319-3453366f5349")
+			(uuid "39e30040-84fe-46d4-a991-2aa2d2acd756")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/440c4026-4221-4609-9e6b-4fa2cbdd7197")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8573,7 +9626,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AFIL_R")
+			(net "Net-(U5-OUTR)")
+			(pintype "passive")
 			(uuid "1a1269d9-d793-4af5-b8da-a2a91898b485")
 		)
 		(pad "2" smd roundrect
@@ -8582,6 +9636,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "AUDIO_OUT_R")
+			(pintype "passive")
 			(uuid "2850e7b4-8b8f-4a0a-a2b6-5d50599b9855")
 		)
 		(embedded_fonts no)
@@ -8594,7 +9649,7 @@
 		(property "Reference" "C13"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "e0794b73-ede2-4ded-897f-27947ef12042")
+			(uuid "a2e7915d-c9b1-45dd-8ea3-c0c09364b879")
 			(effects
 				(font
 					(size 1 1)
@@ -8606,7 +9661,7 @@
 		(property "Value" "100n"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "bf34d160-44e5-405f-9bf3-80fb32a4e26e")
+			(uuid "8ffcee36-e002-40dc-b635-cc6e4c84127c")
 			(effects
 				(font
 					(size 1 1)
@@ -8615,11 +9670,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e710e625-c017-4fcf-a364-ef4b9b779126")
+			(uuid "b2512b6a-085e-4ad0-a0a3-bd73698a8274")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,16 +9682,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8fa2a833-29db-4d82-9a5f-4ea644807519")
+			(uuid "25070bad-734b-41db-8af4-3df86449ee9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/9726c8f4-f927-48f6-8d93-a17b1238fba0")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8647,6 +9712,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3A")
+			(pintype "passive")
 			(uuid "8c2d7e1e-4d4b-4c83-a0af-8791cd626409")
 		)
 		(pad "2" smd roundrect
@@ -8655,6 +9721,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "0edd5dbe-81fe-4a50-ae42-0b868df5ebfb")
 		)
 		(embedded_fonts no)
@@ -8667,7 +9734,7 @@
 		(property "Reference" "L1"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "5c814801-f143-4da4-be63-9bd5abc4278a")
+			(uuid "a0029c59-0b48-433a-a251-8c7d72090877")
 			(effects
 				(font
 					(size 1 1)
@@ -8679,7 +9746,7 @@
 		(property "Value" "600R@100MHz"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "57259bca-e53a-4d1b-9535-29995b49adf8")
+			(uuid "453b554a-1192-4fb8-acc4-f81fa5b8fabc")
 			(effects
 				(font
 					(size 1 1)
@@ -8688,11 +9755,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3b7c9e97-799c-4be2-a921-5cc693a54b60")
+			(uuid "61bf4412-7542-4083-870a-92a52118cbb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,16 +9767,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2b0aac5c-f513-45a6-8b27-a70d78122386")
+			(uuid "5c456d23-47f3-4742-b6db-2a5ad267cc13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/abb76e48-869b-47df-b636-ea768eba201d")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8720,6 +9797,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "18117d22-6ad8-4cd9-b2de-b6d543fca549")
 		)
 		(pad "2" smd roundrect
@@ -8728,6 +9806,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3A")
+			(pintype "passive")
 			(uuid "aeaa5d9f-652a-41cd-9bbf-ab35bab8b87a")
 		)
 		(embedded_fonts no)
@@ -8740,7 +9819,7 @@
 		(property "Reference" "R16"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "471fe18e-15fe-4df5-affe-779e55fa6be4")
+			(uuid "78263b95-6f95-4cb9-bd0d-927ed47ac65a")
 			(effects
 				(font
 					(size 1 1)
@@ -8752,7 +9831,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "f1539b1d-3f98-4b14-affa-f51a03c288e6")
+			(uuid "5c2f5e6e-28bf-4b95-bffb-e79282ce2ca5")
 			(effects
 				(font
 					(size 1 1)
@@ -8761,11 +9840,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ee095970-dad3-4154-a264-0de83be153d0")
+			(uuid "267e0802-ed24-417e-be9d-6a9ff76771de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,16 +9852,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "60d267e6-f3c3-4f36-8545-21b67270442d")
+			(uuid "dc2b30e8-f859-4ce4-b3a5-09ecc116e228")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/54afaac9-1677-49e7-9cfc-294f65c4bee1")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8793,6 +9882,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_MCLK")
+			(pintype "passive")
 			(uuid "e07b11ed-b26d-4995-b78b-a2efce50f3f0")
 		)
 		(pad "2" smd roundrect
@@ -8800,7 +9890,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_MCLK_F")
+			(net "Net-(U7-SCKI)")
+			(pintype "passive")
 			(uuid "e80626b0-77ec-4e28-9516-d0b3b3433c2c")
 		)
 		(embedded_fonts no)
@@ -8813,7 +9904,7 @@
 		(property "Reference" "R10"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "af1d57ca-6677-4b7d-a779-70c5ec0354b1")
+			(uuid "f8ae0423-5fb5-482d-b435-dac51050cdca")
 			(effects
 				(font
 					(size 1 1)
@@ -8825,7 +9916,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "eada8e43-6306-4f2e-8f24-043d3b0718b2")
+			(uuid "e993135a-8369-475c-99a1-f65cb7b59f67")
 			(effects
 				(font
 					(size 1 1)
@@ -8834,11 +9925,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8e503d9a-b227-43fa-a859-3029efa4c36f")
+			(uuid "cdf15329-f6d7-4f26-bcf4-341a770ffb23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,16 +9937,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ae57a09c-cfd0-4f51-999b-254f088ef11e")
+			(uuid "4669fea7-7fe6-4b46-b475-e727b29e017e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/f1a1fe5c-2083-4cd7-8980-6cbcf5d5fcd0")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8866,6 +9967,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "I2S_DIN")
+			(pintype "passive")
 			(uuid "bb8ff662-65f4-4ccc-ab77-4d0f78908d29")
 		)
 		(pad "2" smd roundrect
@@ -8873,7 +9975,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_DIN_F")
+			(net "Net-(U5-DIN)")
+			(pintype "passive")
 			(uuid "dc04cb4e-bb48-4128-be7e-1c2eb84b009f")
 		)
 		(embedded_fonts no)
@@ -8886,7 +9989,7 @@
 		(property "Reference" "C8"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "2f2b814f-c6b9-443f-8f24-3aa98638b3e9")
+			(uuid "0871906b-43b3-4f39-86ea-5b4c7cb84211")
 			(effects
 				(font
 					(size 1 1)
@@ -8898,7 +10001,7 @@
 		(property "Value" "1n"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "eb56ca41-50e3-41be-9a1b-650a108f65d2")
+			(uuid "f2948c4b-fa14-4cb5-8111-2029ebc605d4")
 			(effects
 				(font
 					(size 1 1)
@@ -8907,11 +10010,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "88b56347-a47b-433e-9ef4-d39f191c92b8")
+			(uuid "bedc491b-e100-42e7-acc6-0388d5ce38be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,16 +10022,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0579a05b-b559-4e43-86b2-5f4757fe0e8e")
+			(uuid "139954dd-d073-440d-8732-b271c8a15b60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/9498e9be-f6ad-4b19-b0c6-b10313b2b59c")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -8938,7 +10051,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "AC_IN_L")
+			(net "Net-(U7-VINL1{slash}VIN1P)")
+			(pintype "passive")
 			(uuid "7c52d9f2-47e9-4799-bff5-5d8184080bea")
 		)
 		(pad "2" smd roundrect
@@ -8947,6 +10061,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "5e496e16-9387-4c75-88a2-0c4437790be8")
 		)
 		(embedded_fonts no)
@@ -8960,7 +10075,7 @@
 		(property "Reference" "C3"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "7026f1bd-7288-4d9e-8788-9c24207383d8")
+			(uuid "489ac645-8368-416a-a1bc-b9b3d9b4ca05")
 			(effects
 				(font
 					(size 1 1)
@@ -8972,7 +10087,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "6b2b43d2-8833-476f-b48e-df421818e9dc")
+			(uuid "9d1a52cb-42a3-4d7d-8e7a-07aaf2012ecb")
 			(effects
 				(font
 					(size 1 1)
@@ -8981,11 +10096,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "36c44d89-b54a-4c60-8508-096b0752e2a8")
+			(uuid "b35d095f-2364-4572-8e20-3375fa0fbd19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,11 +10108,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "95f9606f-ab15-46f6-ad15-02e630243e60")
+			(uuid "1702b93e-0ef1-4ba1-aadc-f23427a8fda3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,6 +10131,16 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/ed4a64af-6c4c-402d-a507-f8c79ccada66")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -9079,7 +10204,8 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "CP_LDOO")
+			(net "Net-(U5-LDOO)")
+			(pintype "passive")
 			(uuid "140abee7-e381-47dd-975d-b68a35835a9b")
 		)
 		(pad "2" smd roundrect
@@ -9088,6 +10214,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "5c05e363-301f-4edc-8497-9b2bd081bb5d")
 		)
 		(embedded_fonts no)
@@ -9112,7 +10239,7 @@
 		(property "Reference" "J3"
 			(at 6.35 3.5 90)
 			(layer "B.SilkS")
-			(uuid "33bafa4c-bb75-49e4-8795-d13f4910774f")
+			(uuid "8534da88-d5c2-467a-ac4d-7004c0ff7a6a")
 			(effects
 				(font
 					(size 1 1)
@@ -9124,7 +10251,7 @@
 		(property "Value" "LINE OUT L"
 			(at 6.35 -15 90)
 			(layer "B.Fab")
-			(uuid "9b8633c6-3a24-4d82-b74e-8dc6351b2396")
+			(uuid "1ece2b3e-df58-4c0c-a573-8cc3c134c6e5")
 			(effects
 				(font
 					(size 1 1)
@@ -9138,7 +10265,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bacf81ac-412d-4075-b49e-b7ab61a99fa7")
+			(uuid "f75eee4f-b119-479c-8f5b-12d4b9c102c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +10279,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ecd65031-a1ed-4d09-930f-ba654bc8287f")
+			(uuid "5c3792b0-ba06-4ee2-9ce3-05e286ece873")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +10602,7 @@
 		(property "Reference" "R14"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "d0e3c255-bcba-4280-82cc-ed37f41ee07e")
+			(uuid "26aa6e36-74fb-49bf-9998-69535c5b2e6c")
 			(effects
 				(font
 					(size 1 1)
@@ -9487,7 +10614,7 @@
 		(property "Value" "47R"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "9748b6bb-2382-476c-b286-dc47666109ff")
+			(uuid "46c3798e-cc4f-4518-8207-0b899d19e04b")
 			(effects
 				(font
 					(size 1 1)
@@ -9496,11 +10623,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "891cc1bd-4b30-45bc-8749-0390c79314ae")
+			(uuid "2122aa0d-f08d-4aa3-881d-a94f9047703e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,16 +10635,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e4ca535f-4c2a-4987-bfcc-9ed3d2a917c9")
+			(uuid "d00a1db2-57be-4640-b53b-d80b60bd26dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/4827d861-42b7-4d70-81e0-0ccd8d6c282a")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -9527,7 +10664,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_LRCK")
+			(net "Net-(U7-LRCK)")
+			(pintype "passive")
 			(uuid "a739ddda-2378-459c-8c0a-249b04c985c7")
 		)
 		(pad "2" smd roundrect
@@ -9535,7 +10673,8 @@
 			(size 0.9 0.9)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "I2S_LRCK_F")
+			(net "I2S_LRCK")
+			(pintype "passive")
 			(uuid "2f7117bb-8231-4662-a326-37a997e1b930")
 		)
 		(embedded_fonts no)
@@ -9549,7 +10688,7 @@
 		(property "Reference" "J1"
 			(at 6.35 3.5 90)
 			(layer "B.SilkS")
-			(uuid "c97190a5-6adb-40ae-a0e1-32e0efab2763")
+			(uuid "1b62a930-a512-45b0-9c93-52df339a54f8")
 			(effects
 				(font
 					(size 1 1)
@@ -9561,7 +10700,7 @@
 		(property "Value" "LINE IN L"
 			(at 6.35 -15 90)
 			(layer "B.Fab")
-			(uuid "ddfee1ad-fb58-4c98-8f04-7ba89cd487ab")
+			(uuid "b823dc8f-2b66-48ca-ad54-00f27cf26503")
 			(effects
 				(font
 					(size 1 1)
@@ -9575,7 +10714,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bccdc006-010a-48d2-b14f-da9564f5b01c")
+			(uuid "6761248f-7616-4910-8d00-eab5ad3e9bd2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +10728,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bdeccafb-4c41-4b39-8c81-3344a496feae")
+			(uuid "d47677d4-f49a-41a0-bf04-d79a48caf98c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +11051,7 @@
 		(property "Reference" "C11"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "1357995f-e400-4b1c-8bc9-ffac89b2f011")
+			(uuid "bb9ec250-6fd0-41b6-a9b0-b0b6d738c7b9")
 			(effects
 				(font
 					(size 1 1)
@@ -9924,7 +11063,7 @@
 		(property "Value" "4.7n"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
-			(uuid "cd3053e1-83ef-417f-9e4a-a4ff44843694")
+			(uuid "800dc101-50ef-44bb-abae-37ee177363f2")
 			(effects
 				(font
 					(size 1 1)
@@ -9933,11 +11072,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "87b36421-4929-4922-b2ac-9a8f4613a397")
+			(uuid "31dc99e4-0666-4c82-8ced-7613d43057dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,16 +11084,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "passive"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7d7af8b1-9ef9-4b43-adab-ca200732e617")
+			(uuid "dd821a53-f9fb-41e5-b347-415db33e6d75")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4c716d68-8be4-48d7-985c-7b878cd2c4c4/e7d7e6b1-fb02-43fe-8859-4c762f48985c")
+		(sheetname "/AUDIO/")
+		(sheetfile "audio.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -9965,6 +11114,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "AUDIO_OUT_R")
+			(pintype "passive")
 			(uuid "796e2125-939a-4304-af36-82b3ff8e4cab")
 		)
 		(pad "2" smd roundrect
@@ -9973,6 +11123,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "aa60aee5-86b7-4b1d-ba5c-a0a630332c6d")
 		)
 		(embedded_fonts no)
