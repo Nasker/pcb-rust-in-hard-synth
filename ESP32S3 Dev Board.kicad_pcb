@@ -90,7 +90,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "12797d63-b6c6-40b4-b508-1561452aa2c9")
-		(at 159.625 87 180)
+		(at 159.25 110 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV3"
@@ -305,7 +305,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "19849474-3958-4db0-ae23-285315f29afd")
-		(at 110 87 180)
+		(at 109.625 110 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV1"
@@ -802,7 +802,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "2b594abd-9dd1-4eb1-a0f5-1095740ce8ac")
-		(at 184.625 87.5 180)
+		(at 184.25 110.5 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV4"
@@ -1299,7 +1299,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical"
 		(layer "F.Cu")
 		(uuid "7febb302-c058-4356-bdd4-c323524bf6e8")
-		(at 135 87 180)
+		(at 134.625 110 180)
 		(descr "Potentiometer, vertical, ACP CA9-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer vertical ACP CA9-VSMD")
 		(property "Reference" "RV2"
@@ -1514,7 +1514,7 @@
 	(footprint "Local_Libraries:RotaryEncoder_EC12E-SMD"
 		(layer "F.Cu")
 		(uuid "90f9ef13-01d2-4d9e-ab21-ee9fc93ac157")
-		(at 181.9 117.5 90)
+		(at 185 100 90)
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW3"
@@ -1913,7 +1913,7 @@
 	(footprint "Local_Libraries:OLED-1.3inch-128x64-SPI-SMD"
 		(layer "F.Cu")
 		(uuid "9e557a0a-dd7f-4a37-8aa2-4c5200a55f50")
-		(at 139.38 126)
+		(at 139.38 100)
 		(descr "1.3 inch 128x64 OLED module (SH1106), 7-pin SPI, SMD socket mount")
 		(tags "OLED display SPI")
 		(property "Reference" "DS1"
