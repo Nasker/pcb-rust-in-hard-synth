@@ -546,7 +546,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Desktop/RustInSynthPCB.step",
       "svg": "",
       "vrml": ""
     },
