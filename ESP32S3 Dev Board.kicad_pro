@@ -213,7 +213,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.508,
+        1.016
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -846,7 +849,7 @@
         "uuid": "50801038-c9eb-47a5-b248-5dd20448c4b5"
       }
     ],
-    "used_designators": "#FLG2,#PWR1-13,#PWR15-16,#PWR18,#PWR23-46,#PWR52,#PWR54-55,#PWR58-59,#PWR61,#PWR75,#PWR90-92,#PWR94,#PWR96,#PWR99,#PWR101,#PWR109-110,C1-4,C8-9,C12-13,C16-17,D1-2,D9,D21,DS1,E1-2,IC1,J1,J4-6,OK1,Q1,R1-7,R11-14,R16-18,R41,RV1-4,SW1-7,U1-8,Y1",
+    "used_designators": "#FLG2,#PWR1-13,#PWR15-16,#PWR18,#PWR23-46,#PWR52,#PWR54-55,#PWR58-59,#PWR61,#PWR75,#PWR90-92,#PWR94,#PWR96,#PWR99,#PWR101,#PWR109-113,C1-4,C8-9,C12-13,C16-17,C20-22,D1-2,D9,D21,DS1,E1-2,H1-4,IC1,J1,J4-6,OK1,Q1,R1-7,R11-14,R16-18,R41,RV1-4,SW1-7,U1-8,Y1",
     "variants": []
   },
   "sheets": [
