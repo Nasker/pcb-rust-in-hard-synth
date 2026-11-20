@@ -10065,7 +10065,7 @@
 			)
 		)
 	)
-	(footprint "Local_Libraries:Jack_6.35mm_Neutrik_NRJ6HF-1_Horizontal"
+	(footprint "Local_Libraries:Jack_6.35mm_Clone_Horizontal"
 		(layer "B.Cu")
 		(uuid "46acb224-2572-4c71-9847-5cac72969bc7")
 		(at 201.355 82.7 90)
@@ -11852,7 +11852,7 @@
 			)
 		)
 	)
-	(footprint "Local_Libraries:Jack_6.35mm_Neutrik_NRJ6HF-1_Horizontal"
+	(footprint "Local_Libraries:Jack_6.35mm_Clone_Horizontal"
 		(layer "B.Cu")
 		(uuid "a0276c9f-8765-4cc1-9952-08ee3ba2a630")
 		(at 165.225 82.7 90)
@@ -12216,7 +12216,7 @@
 			)
 		)
 	)
-	(footprint "Local_Libraries:Jack_6.35mm_Neutrik_NRJ6HF-1_Horizontal"
+	(footprint "Local_Libraries:Jack_6.35mm_Clone_Horizontal"
 		(layer "B.Cu")
 		(uuid "d4869ac3-c3f0-4897-89e7-c6eb1e920eea")
 		(at 148.225 82.7 90)
@@ -12580,7 +12580,7 @@
 			)
 		)
 	)
-	(footprint "Local_Libraries:Jack_6.35mm_Neutrik_NRJ6HF-1_Horizontal"
+	(footprint "Local_Libraries:Jack_6.35mm_Clone_Horizontal"
 		(layer "B.Cu")
 		(uuid "f438d7c7-42aa-4e67-9c0c-70f10b40c9d9")
 		(at 184.225 82.7 90)
