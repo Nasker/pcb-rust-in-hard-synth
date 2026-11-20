@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 1.5,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -509,7 +509,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32S3 Dev Board.kicad_pro",
+    "filename": "RustInSynthPCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -844,8 +844,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ESP32S3 Dev Board.kicad_sch",
-        "name": "ESP32S3 Dev Board",
+        "filename": "RustInSynthPCB.kicad_sch",
+        "name": "RustInSynthPCB",
         "uuid": "50801038-c9eb-47a5-b248-5dd20448c4b5"
       }
     ],
@@ -855,7 +855,7 @@
   "sheets": [
     [
       "50801038-c9eb-47a5-b248-5dd20448c4b5",
-      "ESP32S3 Dev Board"
+      "RustInSynthPCB"
     ],
     [
       "d88afb29-f619-41d9-b2c7-39b5a79080d1",

@@ -1,6 +1,6 @@
-# ESP32-S3-N16R8 Custom Dev Board
+# RustInSynthPCB
 
-A compact, high-performance development board powered by the **ESP32-S3-WROOM-1-N16R8** module, designed in **KiCad 9.0**. This design focuses on maximizing I/O accessibility and providing dual USB-C functionality for both debugging and native USB applications.
+A standalone ESP32-S3 synthesizer mainboard: a carrier PCB hosting a DevKitC-1-N16R8 module on the back face, with OLED, 4 pots, 4 buttons, rotary encoder, stereo audio ADC/DAC (PCM1860 + PCM5102A), four 6.35mm jacks, DIN-5 MIDI input, microSD and USB — designed in **KiCad 10.0**.
 
 ## 🛠 Features
 * **MCU:** ESP32-S3 (Dual-core @ 240MHz)

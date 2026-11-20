@@ -1560,7 +1560,7 @@
 			(uuid "830d5720-f161-4368-b26a-8567ec09be4f")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "R1")
 					(unit 1)
@@ -1639,7 +1639,7 @@
 			(uuid "848af192-ac3e-431a-879d-764b4e74a19f")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "R4")
 					(unit 1)
@@ -1718,7 +1718,7 @@
 			(uuid "5e1ff31c-1ee3-46ec-9d58-43f82666b4d4")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "D1")
 					(unit 1)
@@ -1811,7 +1811,7 @@
 			(uuid "5237e881-84a2-407c-a60f-a0252328390c")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "OK1")
 					(unit 1)
@@ -1899,7 +1899,7 @@
 			(uuid "13ad6e7c-1aac-4a03-b0d3-215739c3c58d")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "J5")
 					(unit 1)
@@ -1977,7 +1977,7 @@
 			(uuid "a7c52986-896c-4db2-93f3-a168002ba5c6")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "#PWR091")
 					(unit 1)
@@ -2054,7 +2054,7 @@
 			(uuid "23aff25f-8fbb-472a-bb93-fab707b27b29")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "#PWR096")
 					(unit 1)
@@ -2132,7 +2132,7 @@
 			(uuid "3bf6c7d3-b9c2-491d-bd55-3366bcdaa01a")
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5/520a41cd-cc0e-4519-98f7-dd15ca01a195"
 					(reference "#PWR094")
 					(unit 1)

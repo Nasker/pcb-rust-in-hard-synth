@@ -5,7 +5,7 @@
 	(uuid "50801038-c9eb-47a5-b248-5dd20448c4b5")
 	(paper "A3")
 	(title_block
-		(title "ESP32S3-WROOM1 DEV BOARD")
+		(title "RustInSynthPCB")
 		(date "2026-02-08")
 		(rev "First")
 		(company "MEER ZAFARULLAH NOOHANI")
@@ -51,7 +51,7 @@
 			)
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5"
 					(page "3")
 				)
@@ -98,7 +98,7 @@
 			)
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5"
 					(page "4")
 				)
@@ -145,7 +145,7 @@
 			)
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5"
 					(page "5")
 				)
@@ -192,7 +192,7 @@
 			)
 		)
 		(instances
-			(project "ESP32S3 Dev Board"
+			(project "RustInSynthPCB"
 				(path "/50801038-c9eb-47a5-b248-5dd20448c4b5"
 					(page "2")
 				)
