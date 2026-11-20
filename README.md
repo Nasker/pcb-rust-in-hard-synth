@@ -1,5 +1,7 @@
 # RustInSynthPCB
 
+<img src="Images/RustInSynth_logo.png" width="420" alt="RustInSynth">
+
 Mainboard PCB for the **RinSynth** ESP32-S3 synthesizer — a standalone studio/performance
 synth module with real analog I/O, DIN MIDI and an open firmware.
 
