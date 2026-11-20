@@ -1,35 +1,46 @@
 # RustInSynthPCB
 
-A standalone ESP32-S3 synthesizer mainboard: a carrier PCB hosting a DevKitC-1-N16R8 module on the back face, with OLED, 4 pots, 4 buttons, rotary encoder, stereo audio ADC/DAC (PCM1860 + PCM5102A), four 6.35mm jacks, DIN-5 MIDI input, microSD and USB — designed in **KiCad 10.0**.
+Mainboard PCB for the **RinSynth** ESP32-S3 synthesizer — a standalone studio/performance
+synth module with real analog I/O, DIN MIDI and an open firmware.
 
-## 🛠 Features
-* **MCU:** ESP32-S3 (Dual-core @ 240MHz)
-* **Memory:** 16MB Flash / 8MB Octal PSRAM (N16R8 variant)
-* **Connectivity:**
-    * **USB-C (UART):** Dedicated interface for programming and debugging.
-    * **USB-C (Native):** Direct access to S3 USB OTG pins.
-* **I/O:** Full breakout of all usable GPIOs to 0.1" (2.54mm) headers.
-* **Design Tool:** KiCad 9.0
+Companion firmware: [`rinsynth-esp32`](../rinsynth-esp32) (Rust, ESP-IDF).
 
-## ⚙️ Hardware Setup
-To utilize the 16MB Flash and 8MB PSRAM in your IDE (Arduino/ESP-IDF), use the following settings:
+## Overview
 
-| Setting | Value |
+Single-PCB design. All user-facing components live on the front face; the ESP32-S3
+development board is soldered as a receptor/socket on the **back** face.
+
+| Block | Parts |
 | :--- | :--- |
-| **Board** | ESP32S3 Dev Module |
-| **Flash Mode** | QIO |
-| **Flash Size** | 16MB |
-| **PSRAM** | OPI PSRAM |
+| MCU | ESP32-S3-DevKitC-1-**N16R8** (16 MB flash / 8 MB octal PSRAM), back-face mount |
+| Audio in | TI PCM1860 stereo ADC (TSSOP-30) |
+| Audio out | TI PCM5102A stereo DAC (TSSOP-20) |
+| Jacks | 4× 6.35 mm right-angle jacks (Neutrik-clone footprint, 6 pins, no locating pegs) |
+| MIDI | DIN-5 MIDI **input** (H11L1 optocoupler) — consumer only, no MIDI out |
+| Controls | 4× ACP CA9 SMD potentiometers, 4× Panasonic EVQPU tactile switches, Bourns PEC11S encoder w/ push |
+| Display | 1.3" 128×64 SPI OLED |
+| Storage | microSD (Würth 693072010801) |
+| Power | LP5907-3.3 LDO + ferrite filtering for the analog rail |
 
-<img width="1723" height="1012" alt="image" src="https://github.com/user-attachments/assets/859842eb-6d3d-4e1b-95d7-e6d1da4eae34" />
+I2S clocks use single-resistor source termination at the MCU (option-B topology);
+GPIO33–37 are avoided because they serve the octal PSRAM bus.
 
+## Repo layout
 
-## 📦 Production Files
-This repository includes production-ready files optimized for manufacturing via **JLCPCB**, located in the `/JLCPCB BOM & Gerber Files` folder. This includes:
-* Gerber Files
-* Drill Files
-* BOM (Bill of Materials)
-* CPL (Component Placement List / Pick-and-Place)
+```
+RustInSynthPCB.kicad_pro / .kicad_sch / .kicad_pcb   # project, root sheet, board
+ui.kicad_sch / audio.kicad_sch / midi.kicad_sch / mcu.kicad_sch   # subsheets
+Local_Libraries/     # project symbols, footprints and 3D models
+Enclosure/           # enclosure CAD + STEP export
+JLC_BOM.csv          # JLCPCB/LCSC-sourced BOM (C-numbers, assembly notes)
+Images/, Schematics/ # renders & reference PDFs
+```
 
----
-*Note: This project is shared for reference and educational purposes.*
+## Status
+
+Rev 1 — routed, DRC clean (0 unconnected / 0 shorts). Work-in-progress; see the
+`develop` branch for current changes.
+
+## License
+
+MIT — see [LICENSE.txt](LICENSE.txt)
