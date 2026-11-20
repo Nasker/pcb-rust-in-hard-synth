@@ -3,7 +3,7 @@
 Mainboard PCB for the **RinSynth** ESP32-S3 synthesizer — a standalone studio/performance
 synth module with real analog I/O, DIN MIDI and an open firmware.
 
-Companion firmware: [`rinsynth-esp32`](../rinsynth-esp32) (Rust, ESP-IDF).
+Companion firmware: [`rust-in-hard-synth`](https://github.com/Nasker/rust-in-hard-synth) (Rust, ESP-IDF).
 
 ## Overview
 
