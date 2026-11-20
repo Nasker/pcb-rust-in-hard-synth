@@ -21,7 +21,7 @@ EVQPUD02K tactile,"SW1,SW2,SW4,SW5",Panasonic_EVQPUM_EVQPUD,C388885,EVQPUD02K,
 ESP32-S3-DevKitC-1-N16R8,U1,ESP32-S3-DevKitC-1-N16R8-SMD,,ESP32-S3-DEVKITC-1-N16R8,buy Mouser/AliExpress - needs octal PSRAM
 OLED 1.3in 128x64 SPI,DS1,OLED-1.3inch-128x64-SPI-SMD,,,buy Amazon/AliExpress (SSD1309/SH1106 SPI)
 10k lin pot CA9-VSMD,"RV1,RV2,RV3,RV4",Potentiometer_ACP_CA9-VSMD_Vertical,,ACP CA9-VSMD-10KA2020,buy TME/Schukat/Amazon - not on LCSC
-Rotary encoder 12mm w/ push switch,SW3,RotaryEncoder_EC12E-SMD,C470598,EC12E24204A8,THT leads -> hand-solder to SMD pads (footprint is KiCad EC12E converted); true-SMD alt: PEC11S-929K-S0015 C5362681 needs PEC11S footprint
+Rotary encoder 12mm w/ push switch,SW3,RotaryEncoder_Bourns_PEC11S-SMD,C5362681,PEC11S-929K-S0015,true SMD on LCSC; board copy drops center locating hole + 2 corner tabs - clip center post when assembling
 6.35mm jack 6-pin stereo TH,"J1,J2,J3,J4",Jack_6.35mm_Clone_Horizontal,C309285,PJ-625,pad geometry VERIFIED vs datasheet (2x3 6.35mm pitch 11.4mm rows); confirm T/R/S pin order vs own clones
 DIN-5 MIDI RA,J5,DIN-5-MIDI-RA,,,buy Switchcraft 57PC5F or generic - not on LCSC
 microSD socket Wurth hinge,J6,microSD_HC_Wuerth_693072010801,,693072010801,buy DigiKey/Mouser - or C53223921 push-push (footprint differs)
