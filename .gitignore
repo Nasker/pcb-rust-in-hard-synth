@@ -6,3 +6,5 @@ __pycache__/
 *.net
 .history/
 .mcp-backups/
+*.sc.bak*
+.~*.lock
